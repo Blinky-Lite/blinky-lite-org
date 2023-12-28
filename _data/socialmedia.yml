@@ -3,10 +3,10 @@
   class: icon-github
   title: Github
 
-- name: YouTube
-  url: https://www.youtube.com/channel/UCtgdiqddSHmtJ7gB86Zkz_A
-  class: icon-youtube
-  title: "Videos"
+#- name: YouTube
+#  url: https://www.youtube.com/channel/UCtgdiqddSHmtJ7gB86Zkz_A
+#  class: icon-youtube
+#  title: "Videos"
 
 #- name: Twitter
 #  url: http://twitter.com/phlow
