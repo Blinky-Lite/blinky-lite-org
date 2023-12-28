@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>/</id>
 	<title>Blinky-Lite</title>
-	<updated>2023-12-28T07:46:14+01:00</updated>
+	<updated>2023-12-28T09:19:32+01:00</updated>
 
 	<subtitle>»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.</subtitle>
 
@@ -12,11 +12,13 @@
 		
 		<author>
 			
-				<name>Phlow</name>
+				<name>david-mcginnis</name>
 			
 			
+				<email>david.mcginnis@bl-mc.se</email>
 			
-				<uri>http://phlow.de/</uri>
+			
+				<uri>https://github.com/Blinky-Lite</uri>
 			
 		</author>
 	
@@ -37,11 +39,13 @@
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>david-mcginnis</name>
 					
 					
+						<email>david.mcginnis@bl-mc.se</email>
 					
-						<uri>http://phlow.de/</uri>
+					
+						<uri>https://github.com/Blinky-Lite</uri>
 					
 				</author>
 			
@@ -101,11 +105,13 @@
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>david-mcginnis</name>
 					
 					
+						<email>david.mcginnis@bl-mc.se</email>
 					
-						<uri>http://phlow.de/</uri>
+					
+						<uri>https://github.com/Blinky-Lite</uri>
 					
 				</author>
 			
@@ -561,11 +567,13 @@ element&lt;/td&gt;
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>david-mcginnis</name>
 					
 					
+						<email>david.mcginnis@bl-mc.se</email>
 					
-						<uri>http://phlow.de/</uri>
+					
+						<uri>https://github.com/Blinky-Lite</uri>
 					
 				</author>
 			
@@ -594,11 +602,13 @@ element&lt;/td&gt;
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>david-mcginnis</name>
 					
 					
+						<email>david.mcginnis@bl-mc.se</email>
 					
-						<uri>http://phlow.de/</uri>
+					
+						<uri>https://github.com/Blinky-Lite</uri>
 					
 				</author>
 			
@@ -660,11 +670,13 @@ element&lt;/td&gt;
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>david-mcginnis</name>
 					
 					
+						<email>david.mcginnis@bl-mc.se</email>
 					
-						<uri>http://phlow.de/</uri>
+					
+						<uri>https://github.com/Blinky-Lite</uri>
 					
 				</author>
 			
@@ -730,11 +742,13 @@ image:
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>david-mcginnis</name>
 					
 					
+						<email>david.mcginnis@bl-mc.se</email>
 					
-						<uri>http://phlow.de/</uri>
+					
+						<uri>https://github.com/Blinky-Lite</uri>
 					
 				</author>
 			
@@ -801,11 +815,13 @@ image:
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>david-mcginnis</name>
 					
 					
+						<email>david.mcginnis@bl-mc.se</email>
 					
-						<uri>http://phlow.de/</uri>
+					
+						<uri>https://github.com/Blinky-Lite</uri>
 					
 				</author>
 			
@@ -864,11 +880,13 @@ image:
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>david-mcginnis</name>
 					
 					
+						<email>david.mcginnis@bl-mc.se</email>
 					
-						<uri>http://phlow.de/</uri>
+					
+						<uri>https://github.com/Blinky-Lite</uri>
 					
 				</author>
 			
@@ -939,11 +957,13 @@ image:
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>david-mcginnis</name>
 					
 					
+						<email>david.mcginnis@bl-mc.se</email>
 					
-						<uri>http://phlow.de/</uri>
+					
+						<uri>https://github.com/Blinky-Lite</uri>
 					
 				</author>
 			
@@ -1010,11 +1030,13 @@ image:
 				
 				<author>
 					
-						<name>Phlow</name>
+						<name>david-mcginnis</name>
 					
 					
+						<email>david.mcginnis@bl-mc.se</email>
 					
-						<uri>http://phlow.de/</uri>
+					
+						<uri>https://github.com/Blinky-Lite</uri>
 					
 				</author>
 			

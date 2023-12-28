@@ -1,8 +1,10 @@
 /* TEAM */
 
-Name: Phlow
-Site: http://phlow.de/
-Twitter: @phlow
+Name: david-mcginnis
+Site: https://github.com/Blinky-Lite
+
+Name: georg-hulla
+Site: https://github.com/Blinky-Lite
 
 
 /* THANKS */
