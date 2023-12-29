@@ -8,7 +8,7 @@ layout: frontpage
 header:
   image_fullwidth: bridge_dm.jpg
 widget1:
-  title: "Posts"
+  title: "Installations"
   url: '/blog/'
   image: widget-1-302x182.jpg
   text: 'Some text Widget1'
@@ -33,7 +33,8 @@ widget3:
 # To change colors see sass/_01_settings_colors.scss
 #
 callforaction:
-  thumbnail: '/images/leakInstallation_dm.jpg'
+  video: 'https://www.youtube.com/embed/ixhx7huZjTI?si=0Gq-TxCqrKp-QzCg'
+  title: 'Featured Video: Blinky-Leak Installation'
 
 permalink: /index.html
 #
