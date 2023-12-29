@@ -4,9 +4,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>/</id>
 	<title>Blinky-Lite</title>
-	<updated>2023-12-28T11:10:27+01:00</updated>
+	<updated>2023-12-29T09:31:41+01:00</updated>
 
-	<subtitle>»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.</subtitle>
+	<subtitle>A full-stack,open-source, remote automation platform</subtitle>
 
 	
 		
@@ -26,7 +26,7 @@
 	<link href="/atom.xml" rel="self" type="application/rss+xml" />
 	<link href="/" rel="alternate" type="text/html" />
 
-	<generator uri="http://jekyllrb.com" version="4.3.2">Jekyll</generator>
+	<generator uri="http://jekyllrb.com" version="4.3.3">Jekyll</generator>
 
 	
 		<entry>

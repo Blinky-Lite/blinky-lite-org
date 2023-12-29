@@ -11,17 +11,17 @@ widget1:
   title: "Posts"
   url: '/blog/'
   image: widget-1-302x182.jpg
-  text: 'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
+  text: 'Some text Widget1'
 widget2:
-  title: "Why use this theme?"
+  title: "Features"
   url: 'https://phlow.github.io/feeling-responsive/info/'
-  text: '<em>Feeling Responsive</em> is heavily customizable.<br/>1. Language-Support :)<br/>2. Optimized for speed and it&#39;s responsive.<br/>3. Built on <a href="https://foundation.zurb.com/">Foundation Framework</a>.<br/>4. Seven different Headers.<br/>5. Customizable navigation, footer,...'
+  text: 'Some text Widget2'
   video: '<a href="#" data-reveal-id="videoModal"><img src="/images/leakInstallation_dm.jpg" width="302" height="182" alt=""/></a>'
 widget3:
-  title: "Download Theme"
+  title: "Install Blinky-Lite"
   url: 'https://github.com/Phlow/feeling-responsive'
   image: widget-github-303x182.jpg
-  text: '<em>Feeling Responsive</em> is free and licensed under a MIT License. Make it your own and start building. The code is well-documented and explains you how it works.'
+  text: 'Some text Widget'
 #
 # Use the call for action to show a button on the frontpage
 #
@@ -33,9 +33,11 @@ widget3:
 # To change colors see sass/_01_settings_colors.scss
 #
 callforaction:
-  url: https://tinyletter.com/feeling-responsive
+  url: /#
   text: Inform me about new updates and features ›
+  video: '<a href="#" data-reveal-id="videoModal"><img src="/images/leakInstallation_dm.jpg" width="302" height="182" alt=""/></a>'
   style: alert
+
 permalink: /index.html
 #
 # This is a nasty hack to make the navigation highlight

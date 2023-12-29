@@ -1,9 +1,10 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.8.5)
+    addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
     asciidoctor (1.5.8)
+    base64 (0.2.0)
     coderay (1.1.1)
     colorator (1.1.0)
     concurrent-ruby (1.2.2)
@@ -11,7 +12,8 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    faraday (2.7.4)
+    faraday (2.8.1)
+      base64
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.2)
@@ -21,7 +23,7 @@ GEM
     http_parser.rb (0.8.0)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
-    jekyll (4.3.2)
+    jekyll (4.3.3)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -37,8 +39,8 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
-    jekyll-asciidoc (3.0.0)
-      asciidoctor (>= 1.5.0)
+    jekyll-asciidoc (3.0.1)
+      asciidoctor (>= 1.5.0, < 3.0.0)
       jekyll (>= 3.0.0)
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
@@ -62,7 +64,6 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (5.0.4)
-    rake (13.1.0)
     rb-fsevent (0.11.2)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -70,9 +71,8 @@ GEM
     rouge (4.2.0)
     ruby2_keywords (0.0.5)
     safe_yaml (1.0.5)
-    sass-embedded (1.69.5)
+    sass-embedded (1.69.5-x86_64-linux-gnu)
       google-protobuf (~> 3.23)
-      rake (>= 13.0.0)
     sawyer (0.9.2)
       addressable (>= 2.3.5)
       faraday (>= 0.17.3, < 3)
@@ -93,4 +93,4 @@ DEPENDENCIES
   jekyll-paginate
 
 BUNDLED WITH
-   2.4.7
+   2.4.10
