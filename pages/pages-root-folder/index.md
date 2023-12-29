@@ -33,10 +33,7 @@ widget3:
 # To change colors see sass/_01_settings_colors.scss
 #
 callforaction:
-  url: /#
-  text: Inform me about new updates and features ›
-  video: '<a href="#" data-reveal-id="videoModal"><img src="/images/leakInstallation_dm.jpg" width="302" height="182" alt=""/></a>'
-  style: alert
+  thumbnail: '/images/leakInstallation_dm.jpg'
 
 permalink: /index.html
 #
