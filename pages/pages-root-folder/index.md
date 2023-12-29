@@ -10,13 +10,13 @@ header:
 widget1:
   title: "Installations"
   url: '/blog/'
-  image: widget-1-302x182.jpg
+  image: flowMeter302x182.jpg
   text: 'Some text Widget1'
 widget2:
   title: "Features"
-  url: 'https://phlow.github.io/feeling-responsive/info/'
+  url: '/features'
   text: 'Some text Widget2'
-  video: '<a href="#" data-reveal-id="videoModal"><img src="/images/leakInstallation_dm.jpg" width="302" height="182" alt=""/></a>'
+  image: mirrotronRF302x182.jpg
 widget3:
   title: "Install Blinky-Lite"
   url: 'https://github.com/Phlow/feeling-responsive'
