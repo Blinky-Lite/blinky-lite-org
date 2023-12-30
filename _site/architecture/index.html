@@ -1,0 +1,573 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Architecture</title>
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles_feeling_responsive.css">
+
+  
+
+	<script src="/assets/js/modernizr.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+	<script>
+		WebFont.load({
+			google: {
+				families: [ 'Lato:400,700,400italic:latin', 'Volkhov::latin' ]
+			}
+		});
+	</script>
+
+	<noscript>
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic%7CVolkhov' rel='stylesheet' type='text/css'>
+	</noscript>
+
+
+	<!-- Search Engine Optimization -->
+	<meta name="description" content="">
+	<meta name="google-site-verification" content="Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ">
+	<meta name="msvalidate.01" content="0FB4C028ABCF07C908C54386ABD2D97F" >
+	
+	
+	
+	<link rel="canonical" href="/architecture/">
+
+
+	<!-- Facebook Open Graph -->
+	<meta property="og:title" content="Architecture">
+	<meta property="og:description" content="">
+	<meta property="og:url" content="/architecture/">
+	<meta property="og:locale" content="en_EN">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="Blinky-Lite">
+	
+	<meta property="article:author" content="https://www.facebook.com/phlow.media">
+
+
+	
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="phlow">
+	<meta name="twitter:creator" content="phlow">
+	<meta name="twitter:title" content="Architecture">
+	<meta name="twitter:description" content="">
+	
+	
+
+	<link type="text/plain" rel="author" href="/humans.txt">
+
+	
+
+	
+
+	<link rel="icon" sizes="32x32" href="/assets/img/favicon-32x32.png">
+
+	<link rel="icon" sizes="192x192" href="/assets/img/touch-icon-192x192.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/assets/img/apple-touch-icon-180x180-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/img/apple-touch-icon-152x152-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/apple-touch-icon-144x144-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/img/apple-touch-icon-120x120-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/apple-touch-icon-114x114-precomposed.png">
+
+	
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/assets/img/apple-touch-icon-76x76-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/img/apple-touch-icon-72x72-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" href="/assets/img/apple-touch-icon-precomposed.png">	
+
+	<meta name="msapplication-TileImage" content="/assets/img/msapplication_tileimage.png">
+
+	<meta name="msapplication-TileColor" content="#fabb00">
+
+
+	
+
+	
+
+
+</head>
+<body id="top-of-page" class="post">
+	
+	
+<div id="navigation" class="sticky">
+  <nav class="top-bar" role="navigation" data-topbar data-options="scrolltop: false">
+    <ul class="title-area">
+      <li class="name">
+      <h1 class="hide-for-large-up"><a href="" class="icon-tree"> Blinky-Lite</a></h1>
+    </li>
+       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar toggle-topbar-click menu-icon"><a><span>Nav</span></a></li>
+    </ul>
+    <section class="top-bar-section">
+
+      <ul class="left">
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a  href="/">Start</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="/applications/">Applications</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="/appOverview/">Overview</a></li>
+                    
+
+                      
+
+                      <li><a  href="/architecture/">Architecture</a></li>
+                    
+
+                      
+
+                      <li><a  href="/cubeExplorerApp/">Cube Explorer App</a></li>
+                    
+
+                      
+
+                      <li><a  href="/appBuilder/">App Builder</a></li>
+                    
+
+                      
+
+                      <li><a  href="/myApps/">MyApps</a></li>
+                    
+
+                      
+
+                      <li><a  href="/alarmScanner/">Alarm Scanner</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="/blog/">Blog</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="/blog/archive/">Blog Archive</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+        
+      </ul>
+      
+      
+
+      <ul class="right">
+        
+
+              
+
+
+
+          
+          
+        
+
+              
+
+
+
+          
+          
+        
+
+              
+
+
+
+          
+          
+        
+
+              
+
+
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a  href="/search/">Search</a></li>
+
+            
+            
+          
+        
+
+              
+
+
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a  href="/contact/">Contact</a></li>
+
+            
+            
+          
+        
+        
+      </ul>
+     
+    </section>
+  </nav>
+</div><!-- /#navigation -->
+
+	
+
+	
+
+<div id="masthead">
+	<div class="row">
+		<div class="small-12 columns">
+			<a id="logo" href="/" title="Blinky-Lite – A full-stack,open-source, remote automation platform">
+				<img src="/assets/img/logo.png" alt="Blinky-Lite – A full-stack,open-source, remote automation platform">
+			</a>
+		</div><!-- /.small-12.columns -->
+	</div><!-- /.row -->
+</div><!-- /#masthead -->
+
+
+
+
+
+
+
+
+
+
+	<div class="row t30">
+	<div class="medium-8 columns medium-offset-2 end">
+		<article itemscope itemtype="http://schema.org/Article">
+			<header>
+				
+
+				<div itemprop="name">
+					<p class="subheadline"></p>
+					<h1>Architecture</h1>
+				</div>
+			</header>
+
+
+			
+			<p class="teaser" itemprop="description">
+				
+			</p>
+			
+
+			<div itemprop="articleSection">
+			<details open="">
+  <summary class="text-delta">
+    Table of contents
+  </summary>
+<ul id="markdown-toc">
+  <li><a href="#the-application-box" id="markdown-toc-the-application-box">The Application Box</a>    <ul>
+      <li><a href="#the-mqtt-broker" id="markdown-toc-the-mqtt-broker">The MQTT Broker</a></li>
+      <li><a href="#the-application-server" id="markdown-toc-the-application-server">The Application Server</a></li>
+      <li><a href="#the-database-server" id="markdown-toc-the-database-server">The Database Server</a></li>
+    </ul>
+  </li>
+  <li><a href="#message-trays" id="markdown-toc-message-trays">Message Trays</a></li>
+  <li><a href="#cube-controllers" id="markdown-toc-cube-controllers">Cube Controllers</a></li>
+</ul>
+
+</details>
+
+<p>The <strong>Blinky-Lite</strong> Architecture consists of three major components:</p>
+<ul>
+  <li>Application Box</li>
+  <li>Message Trays</li>
+  <li>Controller Cubes</li>
+</ul>
+
+<p align="center"><img src="/images/architecture.jpg" /></p>
+<p align="center">Fig. 1 Blinky-Lite Architecture</p>
+
+<h2 id="the-application-box">The Application Box</h2>
+<p>The Application Box is comprised of three services, the MQTT Broker, the Application Server, and the Database Server. Each of these three services can be hosted on the same computer inside a firewall or on the cloud, or each service can be hosted on its own computer inside a firewall or on the cloud. For reliability and ease of installation, the preferred method is to have each service hosted own its own machine in the cloud.</p>
+<ul>
+  <li>
+    <h3 id="the-mqtt-broker">The MQTT Broker</h3>
+    <p>The MQTT broker provides:.</p>
+    <ul>
+      <li><ins>Communication exchange</ins> <br />
+The communication protocol for <strong>Blinky-Lite</strong> is <a href="https://mqtt.org/">MQTT</a>. MQTT uses a publish-subscribe paradigm. The MQTT Broker relays messages between message trays and the Application Server. For prompt communications, the MQTT broker can also relay messages directly between message trays without having to go through the Application Server</li>
+      <li><ins>Data Pooling</ins><br />
+Because of the publish-subscribe paradigm, The MQTT broker effectively protects the message trays from being overloaded from too many communication requests from the Application Server.</li>
+      <li><ins>Security</ins><br />
+The MQTT broker acts an additional layer of security because both the message trays and Application Server must authenticate to the MQTT broker to pass messages. Since the message tray must initiate the connection to the MQTT Broker, this eliminates the need for external SSH tunnels into your private network for remote access. Finally, the MQTT Broker can be easily configured to only accept specific and unique topics to and from each message tray adding another layer of security.</li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="the-application-server">The Application Server</h3>
+    <p>The Application Server tasks are:</p>
+    <ul>
+      <li><ins>Alarm Scanning</ins><br />
+The Application Server collects messages from the message trays via the MQTT Broker scans for alarms and routes these alarms to user alarm applications and the SMS messenger</li>
+      <li><ins>Data Archival</ins><br />
+The Application Server routes the messages from the message trays  to the database server for status update and archival.</li>
+      <li><ins>User application server</ins> <br />
+The Application Server also hosts the user applications. The Application Server checks user requests via role-based access routing and and routes the requests to the appropriate message trays and database server. The application server is written using the <a href="https://nodered.org/">Node-RED</a> programming environment.<br />
+Node-RED makes it easy:
+        <ul>
+          <li>to read, edit, and document the code</li>
+          <li>for the user to change the code</li>
+          <li>to version control the code</li>
+          <li>to port the code to other machines</li>
+        </ul>
+        <p align="center"><img src="/assets/images/nodeRedEnv.png" /></p>
+        <p align="center">Fig. 2 Node-RED Programming Environment</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="the-database-server">The Database Server</h3>
+    <p>Instead of using name-value pairs for describing the data as with most other control system platforms, <strong>Blinky-Lite</strong> uses a class structure to describe systems in the message trays. This structure makes communicating between subsystems and data archival much more streamlined and easy to read and modify. The data in the class structure is stored in <a href="https://www.json.org/json-en.html">JSON</a> objects which is a common lightweight data-interchange format ideal for communicating with mobile browser-based web applications. Most of the data in the control system is time-sequenced so a non-SQL type of database such as <a href="https://www.mongodb.com/">MongoDB</a> or <a href="https://rethinkdb.com/">RethinkDB</a> is much easier to configure and use. Currently, <strong>Blinky-Lite</strong> is configured to interface smoothly with a MongoDB database.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+
+    <p>The database is divided into collections of JSON object documents to not only handle data archiving but other services as well such as access logs and app configurations. The list of collections in a <strong>Blinky-Lite</strong> project is:</p>
+    <ul>
+      <li><span style="color:#ff6100"><strong><em>trays</em></strong></span> - tray configuration</li>
+      <li><span style="color:#ff6100"><strong><em>archiver</em></strong></span> - tray data archiving</li>
+      <li><span style="color:#ff6100"><strong><em>users</em></strong></span> - list of users, their credentials, and their roles</li>
+      <li><span style="color:#ff6100"><strong><em>appConfig</em></strong></span> - configurations for the standard applications</li>
+      <li><span style="color:#ff6100"><strong><em>appStyleSheets</em></strong></span> - custom CSS sheets for the standard applications</li>
+      <li><span style="color:#ff6100"><strong><em>accessLog</em></strong></span> - record of all visits to the project</li>
+      <li><span style="color:#ff6100"><strong><em>settingsLog</em></strong></span> - record of all tray settings made in the project</li>
+      <li><span style="color:#ff6100"><strong><em>restAccessLog</em></strong></span> - record of all RESTful interface visits to the project</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="message-trays">Message Trays</h2>
+<p>The concept of message trays is what makes <strong>Blinky-Lite</strong> truly versatile. The message trays communicate to a device using whatever protocol and hardware is supported by the device, such as Modbus, serial (UART, SPI, I2C, etc.), RS232, MQTT, etc. The message tray packages the device information into a <strong>Blinky-Lite</strong> Tray JSON object in a standard format that is discussed in [Need REF!].</p>
+
+<p>The tray message is then published to the Application Box MQTT broker.  Since the Application Server subscribes to all the message tray topics in a <strong>Blinky-Lite</strong> project, the Application  Server will  receive this message. In this way, the applications on the Application Server can be standardized and reused from project to project. Also, any other tray that subscribes to the message tray’s unique topic can also receive the tray’s JSON object.</p>
+
+<p>The message tray can also subscribe to other message tray topics or messages sent from the Application Server. These messages can the be used to alter the state of the tray or devices the tray is connected to. As shown in Figure 1, more than one device can be connected to a single tray. Thus, the tray can function as a micro-control system in a truly Edge computing manner.</p>
+
+<p>Each message tray runs as a separate Node-RED flow. Usually, there is only a single tray flow running on a single Node-RED process running on a microcomputer such as a <a href="https://www.raspberrypi.org/">Raspberry Pi</a>. However, it is also possible to run multiple tray flows on a single Node-RED instance running on a computer other than a Raspberry Pi, such as computer in the cloud. Local and cloud trays are discussed in [Need Ref!]</p>
+
+<h2 id="cube-controllers">Cube Controllers</h2>
+<p>Cube controllers are not necessarily required in a <strong>Blinky-Lite</strong> project. For example, if the device is a Modbus device, then the tray can be directly connected to the device. An example ModBus tray can be found in [Need Ref!]. If the device is, for example, a stepper motor, then some hardware is required to interface the motor to translate tray commands. This is usually done through a micro-controller such as an <a href="https://www.arduino.cc/">Arduino</a>, <a href="https://www.pjrc.com/teensy/">Teensy</a>, or <a href="https://www.raspberrypi.com/products/raspberry-pi-pico/">Raspberry Pi Pico</a>. We have developed a number of serial and MQTT interfaces to micro-controllers that can be found at [Needs Ref!].</p>
+
+<hr />
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>MongoDB is not open-source software so the user must provide their own instance of a MongoDB database server. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+			</div>
+
+			
+
+			
+		</article>
+	</div><!-- /.medium-8.columns -->
+
+
+	
+
+
+	
+</div><!-- /.row -->
+
+
+	
+	    <div id="up-to-top" class="row">
+      <div class="small-12 columns" style="text-align: right;">
+        <a class="iconfont" href="#top-of-page">&#xf108;</a>
+      </div><!-- /.small-12.columns -->
+    </div><!-- /.row -->
+
+
+    <footer id="footer-content" class="bg-grau">
+      <div id="footer">
+        <div class="row">
+          <div class="medium-6 large-5 columns">
+            <h5 class="shadow-black">About This Site</h5>
+
+            <p class="shadow-black">
+              A full-stack,open-source, remote automation platform
+              <a href="/info/">More ›</a>
+            </p>
+          </div><!-- /.large-6.columns -->
+
+
+          <div class="small-6 medium-3 large-3 large-offset-1 columns">
+            
+              
+                <h5 class="shadow-black">Services</h5>
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+
+              <ul class="no-bullet shadow-black">
+              
+                
+                  <li >
+                    <a href=""  title=""></a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="/contact/"  title="Contact">Contact</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="/feed.xml"  title="Subscribe to RSS Feed">RSS</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="/atom.xml"  title="Subscribe to Atom Feed">Atom</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="/sitemap.xml"  title="Sitemap for Google Webmaster Tools">sitemap.xml</a>
+                  </li>
+              
+              </ul>
+          </div><!-- /.large-4.columns -->
+
+
+          <div class="small-6 medium-3 large-3 columns">
+            
+
+            <ul class="no-bullet shadow-black">
+            
+            </ul>
+          </div><!-- /.large-3.columns -->
+        </div><!-- /.row -->
+
+      </div><!-- /#footer -->
+
+
+      <div id="subfooter">
+        <nav class="row">
+          <section id="subfooter-left" class="small-12 medium-6 columns credits">
+            <p>Forked from <a href="https://github.com/Phlow/feeling-responsive">Feeling-Repsonsive</a></p>
+          </section>
+
+          <section id="subfooter-right" class="small-12 medium-6 columns">
+            <ul class="inline-list social-icons">
+            
+              <li><a href="https://github.com/Blinky-Lite" target="_blank" class="icon-github" title="Github"></a></li>
+            
+              <li><a href="https://www.facebook.com/profile.php?id=100071178946447" target="_blank" class="icon-facebook" title=""></a></li>
+            
+            </ul>
+          </section>
+        </nav>
+      </div><!-- /#subfooter -->
+    </footer>
+
+	
+
+	
+
+
+<script src="/assets/js/javascript.min.js"></script>
+
+
+
+<script>
+    $("#masthead").backstretch("/images/", {fade: 700});
+    $("#masthead-with-text").backstretch("/images/", {fade: 700});
+</script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+

@@ -6,8 +6,18 @@
   url: "/applications/"
   side: left
   dropdown:
-  - title: "Grid & Colors"
-    url: "/design/grid/"
+  - title: "Overview"
+    url: "/appOverview/"
+  - title: "Architecture"
+    url: "/architecture/"
+  - title: "Cube Explorer App"
+    url: "/cubeExplorerApp/"
+  - title: "App Builder"
+    url: "/appBuilder/"
+  - title: "MyApps"
+    url: "/myApps/"
+  - title: "Alarm Scanner"
+    url: "/alarmScanner/"
 
 - title: Blog
   url: "/blog/"
