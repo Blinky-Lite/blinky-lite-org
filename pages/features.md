@@ -1,14 +1,12 @@
 ---
-layout: page
-title:  "Blinky-Lite Features"
-author: david-mcginnis
-
+layout              : page
+show_meta           : false
+title               : "Features"
+subheadline         : ""
+teaser              : "This step-by-step guide helps you to customize Feeling Responsive to your needs."
 header:
-    title: ""
-    image_fullwidth: architecture.jpg
-
-show_meta: false
-breadcrumb: false
+   image_fullwidth  : "architecture.jpg"
+permalink           : "/features/"
 
 ---
 - ## Mobility

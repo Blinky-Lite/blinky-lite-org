@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>/</id>
 	<title>Blinky-Lite</title>
-	<updated>2023-12-29T20:23:18+01:00</updated>
+	<updated>2023-12-30T09:56:56+01:00</updated>
 
 	<subtitle>A full-stack,open-source, remote automation platform</subtitle>
 
@@ -28,77 +28,5 @@
 
 	<generator uri="http://jekyllrb.com" version="4.3.3">Jekyll</generator>
 
-	
-		<entry>
-			<id>/features/</id>
-			<title>Blinky-Lite Features</title>
-			<link href="/features/" rel="alternate" type="text/html" title="Blinky-Lite Features" />
-			<updated>2001-01-01T00:00:00+01:00</updated>
-
-			
-				
-				<author>
-					
-						<name>david-mcginnis</name>
-					
-					
-						<email>david.mcginnis@blinky-lite.org</email>
-					
-					
-						<uri>https://github.com/Blinky-Lite</uri>
-					
-				</author>
-			
-			<summary></summary>
-			<content type="html" xml:base="/features/">&lt;ul&gt;
-  &lt;li&gt;
-    &lt;h2 id=&quot;mobility&quot;&gt;Mobility&lt;/h2&gt;
-    &lt;p&gt;Most other control platforms sit behind a firewall and remote access is an afterthought. Not with &lt;strong&gt;Blinky-Lite&lt;/strong&gt;. Secure remote access was the paramount requirement from the start. All &lt;strong&gt;Blinky-Lite&lt;/strong&gt; applications are web apps that can be securely accessed from anywhere in the world. Web apps require no installation and you are always guaranteed to get the latest version.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h2 id=&quot;security&quot;&gt;Security&lt;/h2&gt;
-    &lt;p&gt;&lt;strong&gt;Blinky-Lite&lt;/strong&gt; connections are always initiated from within your facility, not from the outside, providing secure information flow from you to the machine/sensor and back. All &lt;strong&gt;Blinky-Lite&lt;/strong&gt; mobile apps require two factor authentication, ensuring that only the right people have access.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h2 id=&quot;flexibility&quot;&gt;Flexibility&lt;/h2&gt;
-    &lt;p&gt;&lt;strong&gt;Blinky-Lite&lt;/strong&gt; can be added independently or on top of any existing control system&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h2 id=&quot;open-source&quot;&gt;Open source&lt;/h2&gt;
-    &lt;p&gt;Every single line of the &lt;strong&gt;Blinky-Lite&lt;/strong&gt; codebase is version-controlled and open allowing  &lt;strong&gt;Blinky-Lite&lt;/strong&gt; to grow with you.&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;No license fees&lt;/li&gt;
-      &lt;li&gt;No proprietary software&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h2 id=&quot;services&quot;&gt;Services&lt;/h2&gt;
-    &lt;p&gt;Most other control platforms only offer a communication protocol, but &lt;strong&gt;Blinky-Lite&lt;/strong&gt; out of the box provides:&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Alarm Scanning&lt;/li&gt;
-      &lt;li&gt;SMS Alarm messaging&lt;/li&gt;
-      &lt;li&gt;Data Logging&lt;/li&gt;
-      &lt;li&gt;Access Logging&lt;/li&gt;
-      &lt;li&gt;Settings Logging&lt;/li&gt;
-      &lt;li&gt;Application role based access&lt;/li&gt;
-      &lt;li&gt;Data stream role based access&lt;/li&gt;
-      &lt;li&gt;Zero-code application builder&lt;/li&gt;
-      &lt;li&gt;Device-side restricted messaging&lt;/li&gt;
-      &lt;li&gt;Scalar plotting&lt;/li&gt;
-      &lt;li&gt;Vector plotting&lt;/li&gt;
-      &lt;li&gt;User customized app launcher&lt;/li&gt;
-      &lt;li&gt;User customized device viewers&lt;/li&gt;
-      &lt;li&gt;Two factor authentication&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</content>
-
-			
-			
-
-			<published>2001-01-01T00:00:00+01:00</published>
-		</entry>
 	
 </feed>
