@@ -170,11 +170,6 @@
 
                       <li><a  href="/myApps/">MyApps</a></li>
                     
-
-                      
-
-                      <li><a  href="/alarmScanner/">Alarm Scanner</a></li>
-                    
                   </ul>
 
               </li>

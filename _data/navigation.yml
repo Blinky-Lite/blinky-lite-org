@@ -16,8 +16,6 @@
     url: "/appBuilder/"
   - title: "MyApps"
     url: "/myApps/"
-  - title: "Alarm Scanner"
-    url: "/alarmScanner/"
 
 - title: Blog
   url: "/blog/"
