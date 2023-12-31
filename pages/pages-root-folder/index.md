@@ -8,8 +8,8 @@ layout: frontpage
 header:
   image_fullwidth: bridge_dm.jpg
 widget1:
-  title: "Installations"
-  url: '/blog/'
+  title: "Examples"
+  url: '/examples/'
   image: flowMeter302x182.jpg
   text: ''
 widget2:
@@ -20,7 +20,7 @@ widget2:
 widget3:
   title: "Install Blinky-Lite"
   url: '/docs/pages/Installation/installOverview.html'
-  image: widget-github-303x182.jpg
+  image: container302x182.jpg
   text: ''
 #
 # Use the call for action to show a button on the frontpage

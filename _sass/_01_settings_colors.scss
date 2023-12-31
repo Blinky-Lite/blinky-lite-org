@@ -22,10 +22,18 @@ $body-bg            : #083357;
 $accord-bg          : $body-bg;
 $header-font-color      : #b5c2cd;
 $accordion-navigation-font-color : #fdc100;
+$anchor-font-color : #fdc100;
 
 /* Corporate Identity Colorpalette
    https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
 ------------------------------------------------------------------- */
+
+//$ci-1               : #487895; // dark turquoise
+//$ci-2               : #6b859a; // turquoise
+//$ci-3               : #91aebf; // yellow
+//$ci-4               : #b5c2cd; // orange
+//$ci-5               : #DF4949; // red
+//$ci-6               : #fdc100; // green
 
 $ci-1               : #487895; // dark turquoise
 $ci-2               : #6b859a; // turquoise
@@ -33,7 +41,6 @@ $ci-3               : #91aebf; // yellow
 $ci-4               : #b5c2cd; // orange
 $ci-5               : #DF4949; // red
 $ci-6               : #fdc100; // green
-
 
 
 /* Foundation Color Variables
