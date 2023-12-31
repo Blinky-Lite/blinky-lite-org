@@ -3,7 +3,7 @@
   side: left
 
 - title: Applications
-  url: "https://blinky-lite.org/docs/pages/Overview/appOverview.html"
+  url: "/docs/pages/Overview/appOverview.html"
   side: left
 
 - title: Blog
