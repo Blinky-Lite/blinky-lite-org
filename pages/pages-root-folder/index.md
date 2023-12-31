@@ -11,17 +11,17 @@ widget1:
   title: "Installations"
   url: '/blog/'
   image: flowMeter302x182.jpg
-  text: 'Some text Widget1'
+  text: ''
 widget2:
   title: "Features"
-  url: '/features'
-  text: 'Some text Widget2'
+  url: '/docs/pages/Overview/features.html'
+  text: ''
   image: mirrotronRF302x182.jpg
 widget3:
   title: "Install Blinky-Lite"
-  url: 'https://github.com/Phlow/feeling-responsive'
+  url: '/docs/pages/Installation/installOverview.html'
   image: widget-github-303x182.jpg
-  text: 'Some text Widget'
+  text: ''
 #
 # Use the call for action to show a button on the frontpage
 #
