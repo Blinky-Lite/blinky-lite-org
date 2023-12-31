@@ -2,6 +2,14 @@
   url: "/"
   side: left
 
+- title: Features
+  url: "/docs/pages/Overview/features.html"
+  side: left
+
+- title: Architecture
+  url: "/docs/pages/Overview/architecture.html"
+  side: left
+
 - title: Applications
   url: "/docs/pages/Overview/appOverview.html"
   side: left

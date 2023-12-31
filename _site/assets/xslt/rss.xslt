@@ -139,6 +139,36 @@
 
             
             
+              <li><a  href="/docs/pages/Overview/features.html">Features</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a  href="/docs/pages/Overview/architecture.html">Architecture</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
               <li><a  href="/docs/pages/Overview/appOverview.html">Applications</a></li>
               <li class="divider"></li>
 
@@ -190,6 +220,22 @@
       
 
       <ul class="right">
+        
+
+              
+
+
+
+          
+          
+        
+
+              
+
+
+
+          
+          
         
 
               
