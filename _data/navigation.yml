@@ -14,6 +14,10 @@
   url: "/docs/pages/Overview/appOverview.html"
   side: left
 
+- title: Installation
+  url: "/docs/pages/Installation/installOverview.html"
+  side: left
+
 - title: Blog
   url: "/blog/"
   side: left

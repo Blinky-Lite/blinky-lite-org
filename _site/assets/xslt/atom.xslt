@@ -184,6 +184,21 @@
 
             
             
+              <li><a  href="/docs/pages/Installation/installOverview.html">Installation</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
 
               <li class="has-dropdown">
                 <a  href="/blog/">Blog</a>
@@ -220,6 +235,14 @@
       
 
       <ul class="right">
+        
+
+              
+
+
+
+          
+          
         
 
               
