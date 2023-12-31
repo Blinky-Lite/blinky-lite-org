@@ -1,103 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!-- Pages: 38 links with priority=0.3, changefreq=monthly -->
+<!-- Pages: 26 links with priority=0.3, changefreq=monthly -->
 
 	
 	<url>
 	<loc>/404.html</loc>
 	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>/pages/applications/accessLogAppPreview/</loc>
-	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>/alarmScanner/</loc>
-	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>/pages/applications/appAuthentication/</loc>
-	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>/appBuilder/</loc>
-	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>/appOverview/</loc>
-	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>/architecture/</loc>
-	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
+		<lastmod>2023-12-31T10:04:17+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -112,7 +22,7 @@
 	<url>
 	<loc>/blog/archive/</loc>
 	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
+		<lastmod>2023-12-31T10:04:17+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -129,7 +39,7 @@
 	<url>
 	<loc>/atom.xml</loc>
 	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
+		<lastmod>2023-12-31T10:04:17+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -146,7 +56,7 @@
 	<url>
 	<loc>/changelog/</loc>
 	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
+		<lastmod>2023-12-31T10:04:17+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -161,22 +71,7 @@
 	<url>
 	<loc>/contact/</loc>
 	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>/cubeExplorerApp/</loc>
-	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
+		<lastmod>2023-12-31T10:04:17+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -191,7 +86,7 @@
 	<url>
 	<loc>/design/</loc>
 	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
+		<lastmod>2023-12-31T10:04:17+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -206,22 +101,7 @@
 	<url>
 	<loc>/documentation/</loc>
 	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>/features/</loc>
-	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
+		<lastmod>2023-12-31T10:04:17+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -236,7 +116,7 @@
 	<url>
 	<loc>/feed.xml</loc>
 	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
+		<lastmod>2023-12-31T10:04:17+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -251,7 +131,7 @@
 	<url>
 	<loc>/getting-started/</loc>
 	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
+		<lastmod>2023-12-31T10:04:17+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -266,7 +146,7 @@
 	<url>
 	<loc>/headers/</loc>
 	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
+		<lastmod>2023-12-31T10:04:17+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -281,7 +161,7 @@
 	<url>
 	<loc>/humans.txt</loc>
 	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
+		<lastmod>2023-12-31T10:04:17+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -296,7 +176,7 @@
 	<url>
 	<loc>/blog/</loc>
 	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
+		<lastmod>2023-12-31T10:04:17+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -311,7 +191,7 @@
 	<url>
 	<loc>/</loc>
 	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
+		<lastmod>2023-12-31T10:04:17+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -326,22 +206,7 @@
 	<url>
 	<loc>/info/</loc>
 	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>/myApps/</loc>
-	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
+		<lastmod>2023-12-31T10:04:17+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -356,7 +221,7 @@
 	<url>
 	<loc>/redirect-page/</loc>
 	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
+		<lastmod>2023-12-31T10:04:17+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -371,7 +236,7 @@
 	<url>
 	<loc>/roadmap/</loc>
 	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
+		<lastmod>2023-12-31T10:04:17+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -386,22 +251,7 @@
 	<url>
 	<loc>/robots.txt</loc>
 	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>/pages/applications/roleBasedAccess/</loc>
-	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
+		<lastmod>2023-12-31T10:04:17+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -420,22 +270,7 @@
 	<url>
 	<loc>/search/</loc>
 	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>/pages/applications/settingsLogAppPreview/</loc>
-	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
+		<lastmod>2023-12-31T10:04:17+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -450,22 +285,7 @@
 	<url>
 	<loc>/sitemap.xml</loc>
 	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>/pages/applications/styleSheets/</loc>
-	
-		<lastmod>2023-12-31T06:21:22+01:00</lastmod>
+		<lastmod>2023-12-31T10:04:17+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>

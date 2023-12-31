@@ -3,19 +3,8 @@
   side: left
 
 - title: Applications
-  url: "/applications/"
+  url: "https://blinky-lite.org/docs/pages/Overview/appOverview.html"
   side: left
-  dropdown:
-  - title: "Overview"
-    url: "/appOverview/"
-  - title: "Architecture"
-    url: "/architecture/"
-  - title: "Cube Explorer App"
-    url: "/cubeExplorerApp/"
-  - title: "App Builder"
-    url: "/appBuilder/"
-  - title: "MyApps"
-    url: "/myApps/"
 
 - title: Blog
   url: "/blog/"
