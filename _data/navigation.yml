@@ -18,12 +18,12 @@
   url: "/docs/pages/Installation/installOverview.html"
   side: left
 
-- title: Blog
-  url: "/blog/"
-  side: left
-  dropdown:
-  - title: "Blog Archive"
-    url: "/blog/archive/"
+#- title: Blog
+#  url: "/blog/"
+#  side: left
+#  dropdown:
+#  - title: "Blog Archive"
+#    url: "/blog/archive/"
 
 - title: "Search"
   url: "/search/"

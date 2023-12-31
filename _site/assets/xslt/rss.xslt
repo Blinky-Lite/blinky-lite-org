@@ -196,32 +196,6 @@
 
           
           
-
-            
-            
-
-              <li class="has-dropdown">
-                <a  href="/blog/">Blog</a>
-
-                  <ul class="dropdown">
-                    
-
-                      
-
-                      <li><a  href="/blog/archive/">Blog Archive</a></li>
-                    
-                  </ul>
-
-              </li>
-              <li class="divider"></li>
-            
-          
-        
-
-              
-
-          
-          
         
 
               
@@ -235,14 +209,6 @@
       
 
       <ul class="right">
-        
-
-              
-
-
-
-          
-          
         
 
               
