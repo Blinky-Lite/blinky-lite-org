@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>/</id>
 	<title>Blinky-Lite</title>
-	<updated>2024-01-01T09:19:23+01:00</updated>
+	<updated>2024-01-01T16:20:58+01:00</updated>
 
 	<subtitle>A full-stack,open-source, remote automation platform</subtitle>
 
@@ -28,5 +28,100 @@
 
 	<generator uri="http://jekyllrb.com" version="4.3.3">Jekyll</generator>
 
+	
+		<entry>
+			<id>/cubes/maxiv-leak/</id>
+			<title>Blinky-Leak System</title>
+			<link href="/cubes/maxiv-leak/" rel="alternate" type="text/html" title="Blinky-Leak System" />
+			<updated>2023-08-08T00:00:00+02:00</updated>
+
+			
+				
+				<author>
+					
+						<name>david-mcginnis</name>
+					
+					
+						<email>david.mcginnis@blinky-lite.org</email>
+					
+					
+						<uri>https://github.com/Blinky-Lite</uri>
+					
+				</author>
+			
+			<summary>The Blinky-Leak system is an large scale ultra sensitive leak detector designed for remote locations.</summary>
+			<content type="html" xml:base="/cubes/maxiv-leak/">&lt;!--more--&gt;
+
+&lt;p&gt;Each module communicates wirelessly. Each module requires a power source with a voltage of 3.7 to 5.2V and draws 1.5 mA of current on average. Each module can support two channels. The detector strip is easy to install and costs 0.5 SEK /meter. The modules have been tested successfully with detector strips over 200 meters in length.&lt;/p&gt;
+</content>
+
+			
+				<category term="cubes" />
+			
+			
+				<category term="post instrumentation" />
+			
+
+			<published>2023-08-08T00:00:00+02:00</published>
+		</entry>
+	
+		<entry>
+			<id>/trays/post-left-sidebar/</id>
+			<title>Page/Post With Left Sidebar</title>
+			<link href="/trays/post-left-sidebar/" rel="alternate" type="text/html" title="Page/Post With Left Sidebar" />
+			<updated>2014-07-09T00:00:00+02:00</updated>
+
+			
+				
+				<author>
+					
+						<name>david-mcginnis</name>
+					
+					
+						<email>david.mcginnis@blinky-lite.org</email>
+					
+					
+						<uri>https://github.com/Blinky-Lite</uri>
+					
+				</author>
+			
+			<summary>This is a example of page/post with a sidebar on the left.</summary>
+			<content type="html" xml:base="/trays/post-left-sidebar/">&lt;p&gt;&lt;em&gt;Feeling Responsive&lt;/em&gt; shows metadata by default. The default behaviour can be changed via &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;config.yml&lt;/code&gt;. To show metadata at the end of a page/post just add the following to front matter:
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;show_meta: true
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If you don’t want to show metadata, it’s simple again:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;show_meta: false
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 class=&quot;t60&quot; id=&quot;other-post-instrumentation&quot;&gt;Other Post Instrumentation&lt;/h2&gt;
+
+&lt;ul class=&quot;side-nav&quot;&gt;
+
+  
+
+    
+      &lt;li&gt;&lt;a href=&quot;/cubes/maxiv-leak/&quot;&gt;Instrumentation &amp;middot; &lt;strong&gt;Blinky-Leak System&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;/trays/post-left-sidebar/&quot;&gt;Templates &amp;middot; &lt;strong&gt;Page/Post With Left Sidebar&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+
+  
+&lt;/ul&gt;
+
+</content>
+
+			
+				<category term="trays" />
+			
+			
+				<category term="post instrumentation" />
+			
+
+			<published>2014-07-09T00:00:00+02:00</published>
+		</entry>
 	
 </feed>

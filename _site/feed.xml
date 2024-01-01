@@ -8,5 +8,50 @@
 		<link>/</link>
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
+			<item>
+				<title>Blinky-Leak System</title>
+				<link>/cubes/maxiv-leak/</link>
+				<pubDate>Tue, 08 Aug 2023 00:00:00 +0200</pubDate>
+				<description>&lt;!--more--&gt;
+
+&lt;p&gt;Each module communicates wirelessly. Each module requires a power source with a voltage of 3.7 to 5.2V and draws 1.5 mA of current on average. Each module can support two channels. The detector strip is easy to install and costs 0.5 SEK /meter. The modules have been tested successfully with detector strips over 200 meters in length.&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">/cubes/maxiv-leak/</guid>
+			</item>
+		
+			<item>
+				<title>Page/Post With Left Sidebar</title>
+				<link>/trays/post-left-sidebar/</link>
+				<pubDate>Wed, 09 Jul 2014 00:00:00 +0200</pubDate>
+				<description>&lt;p&gt;&lt;em&gt;Feeling Responsive&lt;/em&gt; shows metadata by default. The default behaviour can be changed via &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;config.yml&lt;/code&gt;. To show metadata at the end of a page/post just add the following to front matter:
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;show_meta: true
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If you don’t want to show metadata, it’s simple again:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;show_meta: false
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 class=&quot;t60&quot; id=&quot;other-post-instrumentation&quot;&gt;Other Post Instrumentation&lt;/h2&gt;
+
+&lt;ul class=&quot;side-nav&quot;&gt;
+
+  
+
+    
+      &lt;li&gt;&lt;a href=&quot;/cubes/maxiv-leak/&quot;&gt;Instrumentation &amp;middot; &lt;strong&gt;Blinky-Leak System&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;/trays/post-left-sidebar/&quot;&gt;Templates &amp;middot; &lt;strong&gt;Page/Post With Left Sidebar&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+
+  
+&lt;/ul&gt;
+
+</description>
+				<guid isPermaLink="true">/trays/post-left-sidebar/</guid>
+			</item>
+		
 	</channel>
 </rss>
