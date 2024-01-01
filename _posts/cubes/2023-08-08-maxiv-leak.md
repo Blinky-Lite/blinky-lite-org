@@ -12,6 +12,7 @@ iframe: "<iframe width='970' height='546' src='//www.youtube.com/embed/ixhx7huZj
 image:
     thumb: leak_thumb.jpg
 breadcrumb: true
+header: no
 ---
 <!--more-->
 

@@ -8,21 +8,21 @@ layout: frontpage
 header:
   image_fullwidth: bridge_dm.jpg
 widget1:
-  title: "System examples"
-  url: '/system-examples/'
-  image: rfq_thumb.png
+  title: "Install Blinky-Lite"
+  url: '/docs/pages/Installation/installOverview.html'
+  image: container302x182.jpg
   text: ''
+  video: '<a href="#" data-reveal-id="videoModal"><img src="/images/container302x182YouTube.jpg" width="302" height="182" alt=""/></a>'
 widget2:
   title: "Features"
   url: '/docs/pages/Overview/features.html'
   text: ''
   image: mirrotronRF302x182.jpg
 widget3:
-  title: "Install Blinky-Lite"
-  url: '/docs/pages/Installation/installOverview.html'
-  image: container302x182.jpg
+  title: "System examples"
+  url: '/system-examples/'
+  image: rfq_thumb.png
   text: ''
-  video: '<a href="#" data-reveal-id="videoModal"><img src="/images/container302x182YouTube.jpg" width="302" height="182" alt=""/></a>'
 
 #
 # Use the call for action to show a button on the frontpage
