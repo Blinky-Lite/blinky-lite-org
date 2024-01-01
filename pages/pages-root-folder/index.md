@@ -8,8 +8,8 @@ layout: frontpage
 header:
   image_fullwidth: bridge_dm.jpg
 widget1:
-  title: "Examples"
-  url: '/examples/'
+  title: "System examples"
+  url: '/system-examples/'
   image: flowMeter302x182.jpg
   text: ''
 widget2:
