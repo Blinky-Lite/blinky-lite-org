@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!-- Pages: 29 links with priority=0.3, changefreq=monthly -->
+<!-- Pages: 24 links with priority=0.3, changefreq=monthly -->
 
 	
 	<url>
 	<loc>/404.html</loc>
 	
-		<lastmod>2024-01-01T16:20:58+01:00</lastmod>
+		<lastmod>2024-01-01T17:35:34+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -22,7 +22,7 @@
 	<url>
 	<loc>/blog/archive/</loc>
 	
-		<lastmod>2024-01-01T16:20:58+01:00</lastmod>
+		<lastmod>2024-01-01T17:35:34+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -39,7 +39,7 @@
 	<url>
 	<loc>/atom.xml</loc>
 	
-		<lastmod>2024-01-01T16:20:58+01:00</lastmod>
+		<lastmod>2024-01-01T17:35:34+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -56,7 +56,7 @@
 	<url>
 	<loc>/boxes/</loc>
 	
-		<lastmod>2024-01-01T16:20:58+01:00</lastmod>
+		<lastmod>2024-01-01T17:35:34+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -71,7 +71,7 @@
 	<url>
 	<loc>/changelog/</loc>
 	
-		<lastmod>2024-01-01T16:20:58+01:00</lastmod>
+		<lastmod>2024-01-01T17:35:34+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -86,7 +86,7 @@
 	<url>
 	<loc>/contact/</loc>
 	
-		<lastmod>2024-01-01T16:20:58+01:00</lastmod>
+		<lastmod>2024-01-01T17:35:34+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -101,22 +101,7 @@
 	<url>
 	<loc>/cubes/</loc>
 	
-		<lastmod>2024-01-01T16:20:58+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>/documentation/</loc>
-	
-		<lastmod>2024-01-01T16:20:58+01:00</lastmod>
+		<lastmod>2024-01-01T17:35:34+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -131,37 +116,7 @@
 	<url>
 	<loc>/feed.xml</loc>
 	
-		<lastmod>2024-01-01T16:20:58+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>/getting-started/</loc>
-	
-		<lastmod>2024-01-01T16:20:58+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>/headers/</loc>
-	
-		<lastmod>2024-01-01T16:20:58+01:00</lastmod>
+		<lastmod>2024-01-01T17:35:34+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -176,7 +131,7 @@
 	<url>
 	<loc>/humans.txt</loc>
 	
-		<lastmod>2024-01-01T16:20:58+01:00</lastmod>
+		<lastmod>2024-01-01T17:35:34+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -191,7 +146,7 @@
 	<url>
 	<loc>/blog/</loc>
 	
-		<lastmod>2024-01-01T16:20:58+01:00</lastmod>
+		<lastmod>2024-01-01T17:35:34+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -206,22 +161,7 @@
 	<url>
 	<loc>/</loc>
 	
-		<lastmod>2024-01-01T16:20:58+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>/info/</loc>
-	
-		<lastmod>2024-01-01T16:20:58+01:00</lastmod>
+		<lastmod>2024-01-01T17:35:34+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -236,22 +176,7 @@
 	<url>
 	<loc>/redirect-page/</loc>
 	
-		<lastmod>2024-01-01T16:20:58+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>/roadmap/</loc>
-	
-		<lastmod>2024-01-01T16:20:58+01:00</lastmod>
+		<lastmod>2024-01-01T17:35:34+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -266,7 +191,7 @@
 	<url>
 	<loc>/robots.txt</loc>
 	
-		<lastmod>2024-01-01T16:20:58+01:00</lastmod>
+		<lastmod>2024-01-01T17:35:34+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -285,7 +210,7 @@
 	<url>
 	<loc>/search/</loc>
 	
-		<lastmod>2024-01-01T16:20:58+01:00</lastmod>
+		<lastmod>2024-01-01T17:35:34+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -300,7 +225,7 @@
 	<url>
 	<loc>/sitemap.xml</loc>
 	
-		<lastmod>2024-01-01T16:20:58+01:00</lastmod>
+		<lastmod>2024-01-01T17:35:34+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -317,7 +242,7 @@
 	<url>
 	<loc>/system-examples/</loc>
 	
-		<lastmod>2024-01-01T16:20:58+01:00</lastmod>
+		<lastmod>2024-01-01T17:35:34+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -332,7 +257,7 @@
 	<url>
 	<loc>/trays/</loc>
 	
-		<lastmod>2024-01-01T16:20:58+01:00</lastmod>
+		<lastmod>2024-01-01T17:35:34+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>

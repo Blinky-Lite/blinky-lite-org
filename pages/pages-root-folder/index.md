@@ -10,7 +10,7 @@ header:
 widget1:
   title: "System examples"
   url: '/system-examples/'
-  image: flowMeter302x182.jpg
+  image: rfq_thumb.png
   text: ''
 widget2:
   title: "Features"
@@ -22,6 +22,8 @@ widget3:
   url: '/docs/pages/Installation/installOverview.html'
   image: container302x182.jpg
   text: ''
+  video: '<a href="#" data-reveal-id="videoModal"><img src="/images/container302x182YouTube.jpg" width="302" height="182" alt=""/></a>'
+
 #
 # Use the call for action to show a button on the frontpage
 #
@@ -32,9 +34,9 @@ widget3:
 # to use the main color or success, alert or secondary.
 # To change colors see sass/_01_settings_colors.scss
 #
-callforaction:
-  video: 'https://www.youtube.com/embed/ixhx7huZjTI?si=0Gq-TxCqrKp-QzCg'
-  title: 'Featured Video: Blinky-Leak Installation'
+#callforaction:
+#  video: 'https://www.youtube.com/embed/ixhx7huZjTI?si=0Gq-TxCqrKp-QzCg'
+#  title: 'Featured Video: Blinky-Leak Installation'
 
 permalink: /index.html
 #

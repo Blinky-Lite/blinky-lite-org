@@ -41,13 +41,14 @@ format: frontpage
 {% else %}
 {% capture url %}{{ site.url }}{{ site.baseurl }}{% endcapture %}
 {% endif %}
+
 {% if page.callforaction %}
     <div class="row t30">
         <h2>{{page.callforaction.title}}</h2>
         <div class="flex-video widescreen vimeo" style="display: block;">
             <iframe width="1280" height="720" src={{page.callforaction.video}} frameborder="0" allowfullscreen></iframe>
         </div>
-    </div><!-- /.row -->
+    </div>
 {% endif %}
 
 

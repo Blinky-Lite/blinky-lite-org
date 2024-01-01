@@ -18,7 +18,7 @@
   url: "/docs/pages/Installation/installOverview.html"
   side: left
 
-- title: Blog
+- title: Posts
   url: "/blog/"
   side: left
   dropdown:
@@ -28,7 +28,7 @@
     url: "/trays/"
   - title: "Cubes"
     url: "/cubes/"
-  - title: "Blog Archive"
+  - title: "Post Archive"
     url: "/blog/archive/"
 
 - title: "Search"

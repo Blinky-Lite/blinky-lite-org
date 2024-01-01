@@ -201,7 +201,7 @@
             
 
               <li class="has-dropdown">
-                <a  href="/blog/">Blog</a>
+                <a  href="/blog/">Posts</a>
 
                   <ul class="dropdown">
                     
@@ -223,7 +223,7 @@
 
                       
 
-                      <li><a  href="/blog/archive/">Blog Archive</a></li>
+                      <li><a  href="/blog/archive/">Post Archive</a></li>
                     
                   </ul>
 
