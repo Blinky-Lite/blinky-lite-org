@@ -9,8 +9,27 @@ header:
 
 permalink: "/system-examples/"
 ---
-- [Mirrotron Compact Neutron Source](https://www.bl-mirrotron.com/) Martonvásár Hungary
-- [Fermilab Compact Superconducting RF Accelerator](https://bl-fermi-01.app/) Batavia USA
-- [MaxIV Beam Stabilization and Instrumentation](https://bl-maxiv.se/) Lund, Sweden
-- [ITER Vacuum Test Stand Instrumentation](https://bl-iter-01.org/) St. Paul Lez Durance Cedex, France
-- [Ockham Technologies Razor Dispensor](https://www.ockhams-razorblade-01.com/) Lund Sweden
+<div class="row">
+    <div class="large-6 columns">
+        <a href="https://www.bl-mirrotron.com"><img src="/images/systemSplash/mirrotronSplash.png" style="border: 5px solid #fff;"></a>
+    </div>
+    <div class="large-6 columns">
+        <a href="https://bl-fermi-01.app/"><img src="/images/systemSplash/FermilabSplash.png" style="border: 5px solid #fff;"></a>
+    </div>
+</div>
+<div class="row t10" >
+    <div class="large-6 columns">
+        <a href="https://bl-maxiv.se/"><img src="/images/systemSplash/maxivSplash.png" style="border: 5px solid #fff;"></a>
+    </div>
+    <div class="large-6 columns">
+        <a href="https://bl-iter-01.org/"><img src="/images/systemSplash/iterSplash.png" style="border: 5px solid #fff;"></a>
+    </div>
+</div>
+<div class="row  t10">
+    <div class="large-6 columns">
+        <a href="https://www.ockhams-razorblade-01.com/"><img src="/images/systemSplash/razorSplash.png" style="border: 5px solid #fff;"></a>
+    </div>
+    <div class="large-6 columns">
+        <a href="https://blinky-lite-box-01.com/"><img src="/images/systemSplash/blinkySplash.png" style="border: 5px solid #fff;"></a>
+    </div>
+</div>
