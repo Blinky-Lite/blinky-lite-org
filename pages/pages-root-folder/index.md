@@ -9,7 +9,7 @@ header:
   image_fullwidth: bridge_dm.jpg
 widget1:
   title: "Install Blinky-Lite"
-  url: '/docs/pages/Installation/installOverview.html'
+  url: '/docs/pages//Installation/appServerInstall.html'
   image: container302x182.jpg
   text: ''
   video: '<a href="#" data-reveal-id="videoModal"><img src="/images/container302x182YouTube.jpg" width="302" height="182" alt=""/></a>'
