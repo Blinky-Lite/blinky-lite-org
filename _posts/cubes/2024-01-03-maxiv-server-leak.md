@@ -12,7 +12,7 @@ image:
     thumb: 2024-01-03/2024-01-03-01_thumb.jpg
 header: no
 ---
-During two days of the 2023-2024 Winter shutdown over 200 meters of Blinky-Leak detector was installed in two of the MaxIV computer server rooms. Each room had four 25 meter strips installed spaced ~1.5 meters apart that ran the length of the room. Two wireless Blinky-Leak cubes that could read 2 channels were installed in each room. The complete system is operational and connected to the MaxIV notification system. System performance can be viewed [here](https://www.bl-maxiv.se/myapps?external).
+During two days of the 2023-2024 Winter shutdown over 200 meters of Blinky-Leak detector was installed in two of the MaxIV computer server rooms. Each room had four 25 meter strips installed spaced ~1.5 meters apart that ran the length of the room. Two wireless Blinky-Leak cubes that could read 2 channels were installed in each room. The complete system is operational and connected to the MaxIV notification system. System performance can be viewed at the [BL-Max-IV external apps](https://www.bl-maxiv.se/).
 
 <div class="row t30">
     <div class="medium-6 columns">
