@@ -9,6 +9,47 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Blinky-Leak system installed in Max-IV server rooms</title>
+				<link>/cubes/maxiv-server-leak/</link>
+				<pubDate>Wed, 03 Jan 2024 00:00:00 +0100</pubDate>
+				<description>&lt;p&gt;During two days of the 2023-2024 Winter shutdown over 200 meters of Blinky-Leak detector was installed in two of the MaxIV computer server rooms. Each room had four 25 meter strips installed spaced ~1.5 meters apart that ran the length of the room. Two wireless Blinky-Leak cubes that could read 2 channels were installed in each room. The complete system is operational and connected to the MaxIV notification system. System performance can be viewed &lt;a href=&quot;https://www.bl-maxiv.se/myapps?external&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-03/2024-01-03-01.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-03/2024-01-03-01.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+         &lt;a href=&quot;/images//2024-01-03/2024-01-03-03.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-03/2024-01-03-03.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+         &lt;a href=&quot;/images//2024-01-03/2024-01-03-05.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-03/2024-01-03-05.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+         &lt;a href=&quot;/images//2024-01-03/2024-01-03-06.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-03/2024-01-03-06.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+         &lt;a href=&quot;/images//2024-01-03/2024-01-03-02.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-03/2024-01-03-02.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+         &lt;a href=&quot;/images//2024-01-03/2024-01-03-04.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-03/2024-01-03-04.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+ 
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+         &lt;a href=&quot;/images//2024-01-03/2024-01-03-07.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-03/2024-01-03-07.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</description>
+				<guid isPermaLink="true">/cubes/maxiv-server-leak/</guid>
+			</item>
+		
+			<item>
 				<title>Blinky-Max31865 System</title>
 				<link>/cubes/Blinky-Max31865/</link>
 				<pubDate>Sun, 01 Oct 2023 00:00:00 +0200</pubDate>
@@ -29,6 +70,8 @@
 
   
 
+    
+      &lt;li&gt;&lt;a href=&quot;/cubes/maxiv-server-leak/&quot;&gt;Instrumentation &amp;middot; &lt;strong&gt;Blinky-Leak system installed in Max-IV server rooms&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
       &lt;li&gt;&lt;a href=&quot;/cubes/Blinky-Max31865/&quot;&gt;Instrumentation &amp;middot; &lt;strong&gt;Blinky-Max31865 System&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
