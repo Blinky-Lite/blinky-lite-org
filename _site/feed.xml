@@ -12,7 +12,7 @@
 				<title>Blinky-Leak system installed in Max-IV server rooms</title>
 				<link>/cubes/maxiv-server-leak/</link>
 				<pubDate>Wed, 03 Jan 2024 00:00:00 +0100</pubDate>
-				<description>&lt;p&gt;During two days of the 2023-2024 Winter shutdown over 200 meters of Blinky-Leak detector was installed in two of the MaxIV computer server rooms. Each room had four 25 meter strips installed spaced ~1.5 meters apart that ran the length of the room. Two wireless Blinky-Leak cubes that could read 2 channels were installed in each room. The complete system is operational and connected to the MaxIV notification system. System performance can be viewed at the &lt;a href=&quot;https://www.bl-maxiv.se/&quot;&gt;BL-Max-IV external apps&lt;/a&gt;.&lt;/p&gt;
+				<description>&lt;p&gt;During two days of the 2023-2024 Winter shutdown over 200 meters of Blinky-Leak detector was installed in two of the MaxIV computer server rooms. Each room had four 25 meter strips installed spaced ~1.5 meters apart that ran the length of the room. Two wireless &lt;a href=&quot;https://github.com/Blinky-Lite/blinky-leak-cube&quot;&gt;Blinky-Leak cubes&lt;/a&gt; that could read 2 channels were installed in each room. The complete system is operational and connected to the MaxIV notification system. System performance can be viewed at the &lt;a href=&quot;https://www.bl-maxiv.se/&quot;&gt;BL-Max-IV external apps&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div class=&quot;row t30&quot;&gt;
     &lt;div class=&quot;medium-6 columns&quot;&gt;
