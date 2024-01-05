@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>/</id>
 	<title>Blinky-Lite</title>
-	<updated>2024-01-05T11:17:20+01:00</updated>
+	<updated>2024-01-05T11:27:03+01:00</updated>
 
 	<subtitle>A full-stack,open-source, remote automation platform</subtitle>
 
@@ -49,7 +49,7 @@
 					
 				</author>
 			
-			<summary>with JupyterLab Integration</summary>
+			<summary>with JupyterLab integration for deep learning</summary>
 			<content type="html" xml:base="/cubes/Blinky-Thermo-Cam/">&lt;p&gt;Since the Blinky-Lite framework uses &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt; for storing data, integration into &lt;a href=&quot;https://jupyterlab.readthedocs.io/en/latest/&quot;&gt;JupyterLab&lt;/a&gt; using &lt;a href=&quot;https://pymongo.readthedocs.io/en/stable/&quot;&gt;PyMongo&lt;/a&gt; is straightforward. As an example, we integrated the &lt;a href=&quot;https://github.com/Blinky-Lite/blinky-thermo-cam-cube&quot;&gt;Blinky-Thermo-Cam&lt;/a&gt; with JupyterLab. This integration could be used to &lt;span style=&quot;color:#ff6100;font-weight: bold&quot;&gt; develop deep-learning models&lt;/span&gt; for thermal imaging streams which could be useful in many diverse  fields such as &lt;span style=&quot;color:cyan;font-weight: bold&quot;&gt;animal monitoring, chemical process monitoring, or equipment failure diagnosis&lt;/span&gt;.&lt;/p&gt;
 
 &lt;p&gt;Blinky-Thermo-Cam is a low cost, remotely deployable, thermal imaging processing system based on the &lt;a href=&quot;https://www.flir.com/products/lepton/?vertical=microcam&amp;amp;segment=oem&quot;&gt;Flir Lepton LWIR Micro Thermal Camera Module&lt;/a&gt;. Blinky-Thermo-Cam is wireless and can operate on 5V batteries for remote operation. Periodic, manual, or motion triggering modes are available.&lt;/p&gt;

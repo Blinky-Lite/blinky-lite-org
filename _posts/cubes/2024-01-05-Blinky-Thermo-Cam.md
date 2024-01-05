@@ -2,7 +2,7 @@
 layout: page-fullwidth
 subheadline: "Instrumentation"
 title:  "Blinky-Thermo-Cam "
-teaser: "with JupyterLab Integration"
+teaser: "with JupyterLab integration for deep learning"
 breadcrumb: true
 tags:
     - post instrumentation

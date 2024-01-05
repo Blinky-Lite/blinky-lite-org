@@ -61,7 +61,7 @@ format: frontpage
 
 {% unless site.posts == empty %}
     <div class="row b20 homepage">
-        <h2><a href="{{ site.url }}{{ site.baseurl }}/blog">Posts</a></h2>
+        <h2><a class="button large radius" href="{{ site.url }}{{ site.baseurl }}/blog">Posts</a></h2>
         <div class="small-12 columns">
             {% for post in site.posts limit:1 %}
             {% if post.image.homepage %}
