@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>/</id>
 	<title>Blinky-Lite</title>
-	<updated>2024-01-04T06:49:39+01:00</updated>
+	<updated>2024-01-05T11:05:55+01:00</updated>
 
 	<subtitle>A full-stack,open-source, remote automation platform</subtitle>
 
@@ -28,6 +28,65 @@
 
 	<generator uri="http://jekyllrb.com" version="4.3.3">Jekyll</generator>
 
+	
+		<entry>
+			<id>/cubes/Blinky-Thermo-Cam/</id>
+			<title>Blinky-Thermo-Cam </title>
+			<link href="/cubes/Blinky-Thermo-Cam/" rel="alternate" type="text/html" title="Blinky-Thermo-Cam " />
+			<updated>2024-01-05T00:00:00+01:00</updated>
+
+			
+				
+				<author>
+					
+						<name>david-mcginnis</name>
+					
+					
+						<email>david.mcginnis@blinky-lite.org</email>
+					
+					
+						<uri>https://github.com/Blinky-Lite</uri>
+					
+				</author>
+			
+			<summary>with JupyterLab Integration</summary>
+			<content type="html" xml:base="/cubes/Blinky-Thermo-Cam/">&lt;p&gt;Since the Blinky-Lite framework uses &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt; for storing data, integration into &lt;a href=&quot;https://jupyterlab.readthedocs.io/en/latest/&quot;&gt;JupyterLab&lt;/a&gt; using &lt;a href=&quot;https://pymongo.readthedocs.io/en/stable/&quot;&gt;PyMongo&lt;/a&gt; is straightforward. As an example, we integrated the &lt;a href=&quot;https://github.com/Blinky-Lite/blinky-thermo-cam-cube&quot;&gt;Blinky-Thermo-Cam&lt;/a&gt; with JupyterLab. This integration could be used to &lt;span style=&quot;color:#ff6100;font-weight: bold&quot;&gt; develop deep-learning models&lt;/span&gt; for thermal imaging streams which could be useful in many diverse  fields such as &lt;span style=&quot;color:cyan;font-weight: bold&quot;&gt;animal monitoring, chemical process monitoring, or equipment failure diagnosis&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;Blinky-Thermo-Cam is a low cost, remotely deployable, thermal imaging processing system based on the &lt;a href=&quot;https://www.flir.com/products/lepton/?vertical=microcam&amp;amp;segment=oem&quot;&gt;Flir Lepton LWIR Micro Thermal Camera Module&lt;/a&gt;. Blinky-Thermo-Cam is wireless and can operate on 5V batteries for remote operation. Periodic, manual, or motion triggering modes are available.&lt;/p&gt;
+
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-05/2024-01-05-02.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-05/2024-01-05-02.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;div style=&quot;position: relative; padding-bottom: 75%;height: 0px;&quot;&gt;
+            &lt;iframe style=&quot;position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; src=&quot;https://www.youtube.com/embed/059UMhI2c8w?si=cv1A2hieBQSOkPEQ&quot;&gt;&lt;/iframe&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+         &lt;a href=&quot;/images//2024-01-05/2024-01-05-03.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-05/2024-01-05-03.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+         &lt;a href=&quot;/images//2024-01-05/2024-01-05-05.png&quot;&gt;&lt;img src=&quot;/images//2024-01-05/2024-01-05-05.png&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+         &lt;a href=&quot;/images//2024-01-05/2024-01-05-04.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-05/2024-01-05-04.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+
+			
+				<category term="cubes" />
+			
+			
+				<category term="post instrumentation" />
+			
+
+			<published>2024-01-05T00:00:00+01:00</published>
+		</entry>
 	
 		<entry>
 			<id>/cubes/maxiv-server-leak/</id>
@@ -133,6 +192,8 @@
 
   
 
+    
+      &lt;li&gt;&lt;a href=&quot;/cubes/Blinky-Thermo-Cam/&quot;&gt;Instrumentation &amp;middot; &lt;strong&gt;Blinky-Thermo-Cam &lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
       &lt;li&gt;&lt;a href=&quot;/cubes/maxiv-server-leak/&quot;&gt;Instrumentation &amp;middot; &lt;strong&gt;Blinky-Leak system installed in Max-IV server rooms&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
