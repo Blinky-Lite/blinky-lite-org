@@ -199,36 +199,10 @@
 
             
             
-
-              <li class="has-dropdown">
-                <a  href="/blog/">Posts</a>
-
-                  <ul class="dropdown">
-                    
-
-                      
-
-                      <li><a  href="/boxes/">Boxes</a></li>
-                    
-
-                      
-
-                      <li><a  href="/trays/">Trays</a></li>
-                    
-
-                      
-
-                      <li><a  href="/cubes/">Cubes</a></li>
-                    
-
-                      
-
-                      <li><a  href="/blog/archive/">Post Archive</a></li>
-                    
-                  </ul>
-
-              </li>
+              <li><a  href="/blog/">Posts</a></li>
               <li class="divider"></li>
+
+            
             
           
         
