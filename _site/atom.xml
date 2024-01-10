@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>/</id>
 	<title>Blinky-Lite</title>
-	<updated>2024-01-05T11:27:03+01:00</updated>
+	<updated>2024-01-10T10:19:39+01:00</updated>
 
 	<subtitle>A full-stack,open-source, remote automation platform</subtitle>
 
@@ -28,6 +28,61 @@
 
 	<generator uri="http://jekyllrb.com" version="4.3.3">Jekyll</generator>
 
+	
+		<entry>
+			<id>/cubes/maxiv-leak-700/</id>
+			<title>Over 700 meters of Blinky-Leak system operational at Max-IV</title>
+			<link href="/cubes/maxiv-leak-700/" rel="alternate" type="text/html" title="Over 700 meters of Blinky-Leak system operational at Max-IV" />
+			<updated>2024-01-10T00:00:00+01:00</updated>
+
+			
+				
+				<author>
+					
+						<name>david-mcginnis</name>
+					
+					
+						<email>david.mcginnis@blinky-lite.org</email>
+					
+					
+						<uri>https://github.com/Blinky-Lite</uri>
+					
+				</author>
+			
+			<summary>Complete coverage of 3GeV ring and computer server rooms</summary>
+			<content type="html" xml:base="/cubes/maxiv-leak-700/">&lt;p&gt;During the 2023-2024 Winter shutdown over 700 meters of Blinky-Leak detector was made operational in the MaxIV computer server rooms and the 520 meter 3 GeV Ring. Fourteen wireless &lt;a href=&quot;https://github.com/Blinky-Lite/blinky-leak-cube&quot;&gt;Blinky-Leak cubes&lt;/a&gt; that could read two 20 meter long detectors comprise the system. The complete system is operational and connected to the MaxIV notification system. System performance can be viewed at the &lt;a href=&quot;https://www.bl-maxiv.se/&quot;&gt;BL-Max-IV external apps&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-03/2024-01-03-01.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-03/2024-01-03-01.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;div style=&quot;position: relative; padding-bottom: 75%;height: 0px;&quot;&gt;
+            &lt;iframe style=&quot;position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; src=&quot;https://www.youtube.com/embed/ixhx7huZjTI?si=gSC4TUYvG3zm5O1T&quot;&gt;&lt;/iframe&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+         &lt;a href=&quot;/images//2024-01-10/2024-01-10-02.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-10/2024-01-10-02.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+         &lt;a href=&quot;/images//2024-01-03/2024-01-03-06.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-03/2024-01-03-06.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+
+			
+				<category term="cubes" />
+			
+			
+				<category term="post instrumentation" />
+			
+
+			<published>2024-01-10T00:00:00+01:00</published>
+		</entry>
 	
 		<entry>
 			<id>/cubes/Blinky-Thermo-Cam/</id>
@@ -192,6 +247,8 @@
 
   
 
+    
+      &lt;li&gt;&lt;a href=&quot;/cubes/maxiv-leak-700/&quot;&gt;Instrumentation &amp;middot; &lt;strong&gt;Over 700 meters of Blinky-Leak system operational at Max-IV&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
       &lt;li&gt;&lt;a href=&quot;/cubes/Blinky-Thermo-Cam/&quot;&gt;Instrumentation &amp;middot; &lt;strong&gt;Blinky-Thermo-Cam &lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
