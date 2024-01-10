@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>/</id>
 	<title>Blinky-Lite</title>
-	<updated>2024-01-10T10:19:39+01:00</updated>
+	<updated>2024-01-10T10:20:45+01:00</updated>
 
 	<subtitle>A full-stack,open-source, remote automation platform</subtitle>
 
@@ -31,8 +31,8 @@
 	
 		<entry>
 			<id>/cubes/maxiv-leak-700/</id>
-			<title>Over 700 meters of Blinky-Leak system operational at Max-IV</title>
-			<link href="/cubes/maxiv-leak-700/" rel="alternate" type="text/html" title="Over 700 meters of Blinky-Leak system operational at Max-IV" />
+			<title>Over 700 meters of Blinky-Leak system operational at the Max-IV Light Source</title>
+			<link href="/cubes/maxiv-leak-700/" rel="alternate" type="text/html" title="Over 700 meters of Blinky-Leak system operational at the Max-IV Light Source" />
 			<updated>2024-01-10T00:00:00+01:00</updated>
 
 			
@@ -248,7 +248,7 @@
   
 
     
-      &lt;li&gt;&lt;a href=&quot;/cubes/maxiv-leak-700/&quot;&gt;Instrumentation &amp;middot; &lt;strong&gt;Over 700 meters of Blinky-Leak system operational at Max-IV&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/cubes/maxiv-leak-700/&quot;&gt;Instrumentation &amp;middot; &lt;strong&gt;Over 700 meters of Blinky-Leak system operational at the Max-IV Light Source&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
       &lt;li&gt;&lt;a href=&quot;/cubes/Blinky-Thermo-Cam/&quot;&gt;Instrumentation &amp;middot; &lt;strong&gt;Blinky-Thermo-Cam &lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
