@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>/</id>
 	<title>Blinky-Lite</title>
-	<updated>2024-01-10T10:20:45+01:00</updated>
+	<updated>2024-01-15T13:34:11+01:00</updated>
 
 	<subtitle>A full-stack,open-source, remote automation platform</subtitle>
 
@@ -28,6 +28,53 @@
 
 	<generator uri="http://jekyllrb.com" version="4.3.3">Jekyll</generator>
 
+	
+		<entry>
+			<id>/boxes/logbook_ntfy/</id>
+			<title>Pushed Notifications now available for the Blinky-Lite logbook</title>
+			<link href="/boxes/logbook_ntfy/" rel="alternate" type="text/html" title="Pushed Notifications now available for the Blinky-Lite logbook" />
+			<updated>2024-01-14T00:00:00+01:00</updated>
+
+			
+				
+				<author>
+					
+						<name>david-mcginnis</name>
+					
+					
+						<email>david.mcginnis@blinky-lite.org</email>
+					
+					
+						<uri>https://github.com/Blinky-Lite</uri>
+					
+				</author>
+			
+			<summary>with Android and Iphone native applications</summary>
+			<content type="html" xml:base="/boxes/logbook_ntfy/">&lt;p&gt;Since all settings in Blinky-Lite are &lt;a href=&quot;/docs/pages/Overview/settingsLogAppPreview.html&quot;&gt;logged&lt;/a&gt; according to the user, the purpose of the Blinky-Lite &lt;a href=&quot;/docs/pages/Overview/logbookAppPreview.html&quot;&gt;logbook&lt;/a&gt;  application is to serve as a forum to explain rationale behind changes to the control system parameters. &lt;span style=&quot;color:#ff6100;font-weight:900;&quot;&gt;However, a logbook is only useful if people read it.&lt;/span&gt; Now, Blinky-Lite makes that easier! We have hooked up the Blinky-Lite logbook to the Blinky-Lite publish-subscribe &lt;a href=&quot;/docs/pages/Overview/notifySystem.html&quot;&gt;notification system&lt;/a&gt;. Now, when any changes are made to the logbook, subscribed users will be notified on their Android or iOS mobile phones. Subscriptions can be also filter according to author and author action.&lt;/p&gt;
+
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-14/2024-01-14-01.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-14/2024-01-14-01.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-14/2024-01-14-02.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-14/2024-01-14-02.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-14/2024-01-14-03.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-14/2024-01-14-03.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+
+			
+				<category term="boxes" />
+			
+			
+				<category term="post systems" />
+			
+
+			<published>2024-01-14T00:00:00+01:00</published>
+		</entry>
 	
 		<entry>
 			<id>/cubes/maxiv-leak-700/</id>
