@@ -9,6 +9,34 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>LS 224 cryogenic temperature monitor control with Blinky-Lite</title>
+				<link>/trays/ls224/</link>
+				<pubDate>Mon, 15 Jan 2024 00:00:00 +0100</pubDate>
+				<description>&lt;p&gt;Superconducting Radio Frequency (SCRF) cavities are a key technology for compact commercial electron accelerators being developed at laboratories such as &lt;a href=&quot;https://iarc.fnal.gov/&quot;&gt;IARC at Fermilab&lt;/a&gt;. The cavities are cooled to about -270C and are monitored with sophisticated cryogenic measurements systems such as the LS224 developed by &lt;a href=&quot;https://www.lakeshore.com/&quot;&gt;Lakeshore Cryotronics&lt;/a&gt;. The LS-224 provides 12 channels of temperature measurement and can store 60 sensor calibrations curves with each curve containing up to 200 points. The complexity of the instrument can be challenging for a typical name-value pair based control communication protocol to handle. However, this is not the case with the  system-view architecture of Blinky-Lite. With Blinky-Lite, we developed a complete remote web-based control platform for the LS-224 complete with three custom web applications for control, monitoring, and curve loading.&lt;/p&gt;
+
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-15/2024-01-15-01.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-15/2024-01-15-01.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-15/2024-01-15-02.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-15/2024-01-15-02.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-15/2024-01-15-03.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-15/2024-01-15-03.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-12 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-15/2024-01-15-04.png&quot;&gt;&lt;img src=&quot;/images//2024-01-15/2024-01-15-04.png&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+				<guid isPermaLink="true">/trays/ls224/</guid>
+			</item>
+		
+			<item>
 				<title>Pushed Notifications now available for the Blinky-Lite logbook</title>
 				<link>/boxes/logbook_ntfy/</link>
 				<pubDate>Sun, 14 Jan 2024 00:00:00 +0100</pubDate>
