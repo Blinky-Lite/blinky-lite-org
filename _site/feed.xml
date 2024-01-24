@@ -9,6 +9,44 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Blinky-Lite Mode 0 beam stabilization system</title>
+				<link>/trays/mode0/</link>
+				<pubDate>Wed, 24 Jan 2024 00:00:00 +0100</pubDate>
+				<description>&lt;p&gt;3 GeV Beam operations at maximum intensity has just resumed at MaxIV for 2024. The mode 0 beam stabilization system has been key to achieving the MaxIV beam brightness. Without the system, MaxIV would only be able operate at 25% of its current operating intensity. The Mode 0 beam stabilization system is based on the &lt;a href=&quot;https://redpitaya.com/stemlab-125-14/&quot;&gt;Red Pitaya StemLab125-14&lt;/a&gt; RF signal acquisition and generation platform  integrated into the Blinky-Lite framework resulting in a compact, low-cost but robust system. The Red Pitaya Mode 0 system has been operating for over a year without causing any down-time to the accelerator.&lt;/p&gt;
+
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-24/2024-01-24-01.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-01.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-24/2024-01-24-02.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-02.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-24/2024-01-24-03.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-03.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-24/2024-01-24-04.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-04.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-24/2024-01-24-05.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-05.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-24/2024-01-24-06.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-06.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-24/2024-01-24-07.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-07.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</description>
+				<guid isPermaLink="true">/trays/mode0/</guid>
+			</item>
+		
+			<item>
 				<title>LS 224 cryogenic temperature monitor control with Blinky-Lite</title>
 				<link>/trays/ls224/</link>
 				<pubDate>Mon, 15 Jan 2024 00:00:00 +0100</pubDate>

@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>/</id>
 	<title>Blinky-Lite</title>
-	<updated>2024-01-15T17:18:56+01:00</updated>
+	<updated>2024-01-24T12:29:01+01:00</updated>
 
 	<subtitle>A full-stack,open-source, remote automation platform</subtitle>
 
@@ -28,6 +28,69 @@
 
 	<generator uri="http://jekyllrb.com" version="4.3.3">Jekyll</generator>
 
+	
+		<entry>
+			<id>/trays/mode0/</id>
+			<title>Blinky-Lite Mode 0 beam stabilization system</title>
+			<link href="/trays/mode0/" rel="alternate" type="text/html" title="Blinky-Lite Mode 0 beam stabilization system" />
+			<updated>2024-01-24T00:00:00+01:00</updated>
+
+			
+				
+				<author>
+					
+						<name>david-mcginnis</name>
+					
+					
+						<email>david.mcginnis@blinky-lite.org</email>
+					
+					
+						<uri>https://github.com/Blinky-Lite</uri>
+					
+				</author>
+			
+			<summary>increases beam brightness at MaxIV Synchrotron Light Source</summary>
+			<content type="html" xml:base="/trays/mode0/">&lt;p&gt;3 GeV Beam operations at maximum intensity has just resumed at MaxIV for 2024. The mode 0 beam stabilization system has been key to achieving the MaxIV beam brightness. Without the system, MaxIV would only be able operate at 25% of its current operating intensity. The Mode 0 beam stabilization system is based on the &lt;a href=&quot;https://redpitaya.com/stemlab-125-14/&quot;&gt;Red Pitaya StemLab125-14&lt;/a&gt; RF signal acquisition and generation platform  integrated into the Blinky-Lite framework resulting in a compact, low-cost but robust system. The Red Pitaya Mode 0 system has been operating for over a year without causing any down-time to the accelerator.&lt;/p&gt;
+
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-24/2024-01-24-01.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-01.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-24/2024-01-24-02.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-02.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-4 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-24/2024-01-24-03.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-03.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-24/2024-01-24-04.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-04.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-24/2024-01-24-05.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-05.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-24/2024-01-24-06.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-06.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-24/2024-01-24-07.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-07.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+
+			
+				<category term="trays" />
+			
+			
+				<category term="post sub-systems" />
+			
+
+			<published>2024-01-24T00:00:00+01:00</published>
+		</entry>
 	
 		<entry>
 			<id>/trays/ls224/</id>
