@@ -23,7 +23,7 @@ Blinky-Thermo-Cam is a low cost, remotely deployable, thermal imaging processing
 
     <div class="medium-6 columns" >
         <div style="position: relative; padding-bottom: 75%;height: 0px;">
-            <iframe style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" frameborder="0" allowfullscreen="" src="https://player.vimeo.com/video/906753074?dnt=1"></iframe>
+            <iframe style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" frameborder="0" allowfullscreen="" src="https://player.vimeo.com/video/906812643?dnt=1"></iframe>
         </div>
     </div>
 </div>
