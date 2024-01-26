@@ -47,7 +47,7 @@ homepage: true
 ---
 <div id="videoModal" class="reveal-modal large" data-reveal="">
   <div class="flex-video widescreen vimeo" style="display: block;">
-    <iframe width="1280" height="720" src="https://player.vimeo.com/video/906667709?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allowfullscreen></iframe>
+    <iframe width="1280" height="720" src="https://player.vimeo.com/video/906667709?&dnt=1" frameborder="0" allowfullscreen></iframe>
   </div>
   <a class="close-reveal-modal">&#215;</a>
 </div>

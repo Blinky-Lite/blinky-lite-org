@@ -8,7 +8,7 @@ tags:
     - post instrumentation
 categories:
     - cubes
-iframe: "<iframe width='970' height='546' src='//www.youtube.com/embed/ixhx7huZjTI?si=0Gq-TxCqrKp-QzCg' frameborder='0' allowfullscreen></iframe>"
+iframe: "<iframe width='970' height='546' src='https://player.vimeo.com/video/906751681?dnt=1' frameborder='0' allowfullscreen></iframe>"
 image:
     thumb: leak_thumb.jpg
 breadcrumb: true
