@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>/</id>
 	<title>Blinky-Lite</title>
-	<updated>2024-01-26T20:14:02+01:00</updated>
+	<updated>2024-01-31T06:47:35+01:00</updated>
 
 	<subtitle>A full-stack,open-source, remote automation platform</subtitle>
 
@@ -28,6 +28,81 @@
 
 	<generator uri="http://jekyllrb.com" version="4.3.3">Jekyll</generator>
 
+	
+		<entry>
+			<id>/boxes/appbuilder/</id>
+			<title>Application Builder Upgrade</title>
+			<link href="/boxes/appbuilder/" rel="alternate" type="text/html" title="Application Builder Upgrade" />
+			<updated>2024-01-31T00:00:00+01:00</updated>
+
+			
+				
+				<author>
+					
+						<name>david-mcginnis</name>
+					
+					
+						<email>david.mcginnis@blinky-lite.org</email>
+					
+					
+						<uri>https://github.com/Blinky-Lite</uri>
+					
+				</author>
+			
+			<summary>with 9 card types and 13 cube types</summary>
+			<content type="html" xml:base="/boxes/appbuilder/">&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-12 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-01-31/widgets.png&quot;&gt;&lt;img src=&quot;/images//2024-01-31/widgets.png&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Building event driven controls applications can be quite complicated so Blinky-Lite has an application builder that makes it easy for the user to build his own custom dashboard application &lt;span style=&quot;color:#ff6100;font-weight:900;&quot;&gt;without having to do any programming.&lt;/span&gt; The user just configures a JSON file. An example file is given in the &lt;a href=&quot;/docs/pages/Overview/appBuilderPreview.html#sample-application-builder-json-file&quot;&gt;Blinky-Lite docs&lt;/a&gt;. The application builder has a basic library of widgets based on &lt;a href=&quot;https://getbootstrap.com/docs/4.0/components/card/&quot;&gt;Boostrap 4 cards&lt;/a&gt;. This widget library is easily extensible to more widgets.&lt;/p&gt;
+
+&lt;p&gt;We just revamped the entire library Application Builder Library adding more cards and widgets.&lt;/p&gt;
+
+&lt;h2 id=&quot;application-builder-cards&quot;&gt;Application Builder Cards&lt;/h2&gt;
+&lt;p&gt;Cards can be arranged in an order and the can be more than one CubeRowCard. There are currently nine different types of cards.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/images//2024-01-31/cubeRows.png&quot;&gt;CubeRowCard&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/images//2024-01-31/barPlot.png&quot;&gt;BarPlotCard&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/images//2024-01-31/timePlot.png&quot;&gt;TimePlotCard&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/images//2024-01-31/archivePlot.png&quot;&gt;ArchivePlotCard&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/images//2024-01-31/vectorPlot.png&quot;&gt;VectorPlotCard&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/images//2024-01-31/iframePlot.png&quot;&gt;IframeCard&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/images//2024-01-31/userCard.png&quot;&gt;UserCard&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[CustomCard]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;application-builder-cuberowcard-widgets&quot;&gt;Application Builder CubeRowCard Widgets&lt;/h2&gt;
+&lt;p&gt;For the CubeRowCard there are 13  widgets defined.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/images//2024-01-31/gaugePlots.png&quot;&gt;GaugeCube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/images//2024-01-31/gaugePlots.png&quot;&gt;HbarCube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/images//2024-01-31/cubeRows.png&quot;&gt;UrlLaunchCube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/images//2024-01-31/cubeRows.png&quot;&gt;TextReadCube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/images//2024-01-31/cubeRows.png&quot;&gt;TextSetCube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/images//2024-01-31/cubeRows.png&quot;&gt;NumberReadCube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/images//2024-01-31/cubeRows.png&quot;&gt;TimeStampReadCube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/images//2024-01-31/cubeRows.png&quot;&gt;OnOffSetCube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/images//2024-01-31/cubeRows.png&quot;&gt;ImageReadCube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/images//2024-01-31/cubeRows.png&quot;&gt;LabelReadCube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/images//2024-01-31/cubeRows.png&quot;&gt;SettingIncrCube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/images//2024-01-31/cubeRows.png&quot;&gt;StateChoiceCube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/images//2024-01-31/cubeRows.png&quot;&gt;DropChoiceCube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+
+			
+				<category term="boxes" />
+			
+			
+				<category term="post systems" />
+			
+
+			<published>2024-01-31T00:00:00+01:00</published>
+		</entry>
 	
 		<entry>
 			<id>/trays/mode0/</id>
