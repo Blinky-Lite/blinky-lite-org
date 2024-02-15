@@ -139,10 +139,51 @@
 
             
             
-              <li><a  href="/docs/pages/Overview/features.html">Features</a></li>
-              <li class="divider"></li>
 
-            
+              <li class="has-dropdown">
+                <a  href="/system-examples/">System examples</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="/system-examples/">Summary</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://blinky-lite-box-01.com/" target="_blank">Blinky-Lite Demo system</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://www.bl-mirrotron.com/" target="_blank">Mirrotron compact Neutron Source</a></li>
+                    
+
+                      
+
+                      <li><a  href="/https://bl-fermi-01.app//" target="_blank">Fermilab Compact SRF Accelerator</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://bl-maxiv.se/" target="_blank">MaxIV Accelerator Instrumentation</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://bl-iter-01.org/" target="_blank">ITER Vacuum Test Stand</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://www.ockhams-razorblade-01.com/" target="_blank">Ockham Technologies</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
             
           
         
@@ -154,37 +195,7 @@
 
             
             
-              <li><a  href="/docs/pages/Overview/architecture.html">Architecture</a></li>
-              <li class="divider"></li>
-
-            
-            
-          
-        
-
-              
-
-          
-          
-
-            
-            
-              <li><a  href="/docs/pages/Overview/appOverview.html">Applications</a></li>
-              <li class="divider"></li>
-
-            
-            
-          
-        
-
-              
-
-          
-          
-
-            
-            
-              <li><a  href="/docs/pages/Installation/installOverview.html">Installation</a></li>
+              <li><a  href="/docs/">Documentation</a></li>
               <li class="divider"></li>
 
             
@@ -224,22 +235,6 @@
       
 
       <ul class="right">
-        
-
-              
-
-
-
-          
-          
-        
-
-              
-
-
-
-          
-          
         
 
               

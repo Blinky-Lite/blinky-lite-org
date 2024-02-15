@@ -2,20 +2,27 @@
   url: "/"
   side: left
 
-- title: Features
-  url: "/docs/pages/Overview/features.html"
+- title: System examples
+  url: "/system-examples/"
   side: left
+  dropdown:
+  - title: "Summary"
+    url: "/system-examples/"
+  - title: "Blinky-Lite Demo system"
+    url: "https://blinky-lite-box-01.com/"
+  - title: "Mirrotron compact Neutron Source"
+    url: "https://www.bl-mirrotron.com/"
+  - title: "Fermilab Compact SRF Accelerator"
+    url: "/https://bl-fermi-01.app//"
+  - title: "MaxIV Accelerator Instrumentation"
+    url: "https://bl-maxiv.se/"
+  - title: "ITER Vacuum Test Stand"
+    url: "https://bl-iter-01.org/"
+  - title: "Ockham Technologies"
+    url: "https://www.ockhams-razorblade-01.com/"
 
-- title: Architecture
-  url: "/docs/pages/Overview/architecture.html"
-  side: left
-
-- title: Applications
-  url: "/docs/pages/Overview/appOverview.html"
-  side: left
-
-- title: Installation
-  url: "/docs/pages/Installation/installOverview.html"
+- title: Documentation
+  url: "/docs/"
   side: left
 
 - title: Posts
