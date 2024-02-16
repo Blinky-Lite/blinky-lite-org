@@ -13,13 +13,13 @@
   - title: "Mirrotron compact Neutron Source"
     url: "https://www.bl-mirrotron.com/"
   - title: "Fermilab Compact SRF Accelerator"
-    url: "/https://bl-fermi-01.app//"
+    url: "https://bl-fermi-01.app//"
   - title: "MaxIV Accelerator Instrumentation"
     url: "https://bl-maxiv.se/"
   - title: "ITER Vacuum Test Stand"
     url: "https://bl-iter-01.org/"
   - title: "Ockham Technologies"
-    url: "https://www.ockhams-razorblade-01.com/"
+    url: "https://ockhams-razorblade-01.com/"
 
 - title: Documentation
   url: "/docs/"

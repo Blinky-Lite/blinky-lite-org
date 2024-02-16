@@ -163,7 +163,7 @@
 
                       
 
-                      <li><a  href="/https://bl-fermi-01.app//" target="_blank">Fermilab Compact SRF Accelerator</a></li>
+                      <li><a  href="https://bl-fermi-01.app//" target="_blank">Fermilab Compact SRF Accelerator</a></li>
                     
 
                       
@@ -178,7 +178,7 @@
 
                       
 
-                      <li><a  href="https://www.ockhams-razorblade-01.com/" target="_blank">Ockham Technologies</a></li>
+                      <li><a  href="https://ockhams-razorblade-01.com/" target="_blank">Ockham Technologies</a></li>
                     
                   </ul>
 
