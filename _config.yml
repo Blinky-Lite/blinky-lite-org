@@ -11,10 +11,10 @@
 title: 'Blinky-Lite'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: 'A full-stack,open-source, remote automation platform'
+slogan: 'A full-stack, <u>open-source</u>, remote automation platform'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: 'A full-stack,open-source, remote automation platform'
+description: 'A full-stack, open-source, remote automation platform'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 credits: '<p>Forked from <a href="https://github.com/Phlow/feeling-responsive">Feeling-Repsonsive</a></p>'
@@ -38,7 +38,7 @@ urlimg: '/images/'
 
 
 # Logo size is 600x80 pixels
-logo: "logo.png"
+logo: "logoSimple.png"
 
 # Plugins
 plugins:
