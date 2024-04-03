@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>/</id>
 	<title>Blinky-Lite</title>
-	<updated>2024-02-19T07:27:47+01:00</updated>
+	<updated>2024-04-03T17:09:02+02:00</updated>
 
 	<subtitle>A full-stack, open-source, remote automation platform</subtitle>
 
@@ -28,6 +28,52 @@
 
 	<generator uri="http://jekyllrb.com" version="4.3.3">Jekyll</generator>
 
+	
+		<entry>
+			<id>/boxes/tech-network/</id>
+			<title>The Blinky-Lite Technical Network</title>
+			<link href="/boxes/tech-network/" rel="alternate" type="text/html" title="The Blinky-Lite Technical Network" />
+			<updated>2024-04-03T00:00:00+02:00</updated>
+
+			
+				
+				<author>
+					
+						<name>david-mcginnis</name>
+					
+					
+						<email>david.mcginnis@blinky-lite.org</email>
+					
+					
+						<uri>https://github.com/Blinky-Lite</uri>
+					
+				</author>
+			
+			<summary>Secure but low-cost</summary>
+			<content type="html" xml:base="/boxes/tech-network/">&lt;p&gt;For a startup business, it is so easy to install Blinky-Lite to control and monitor your devices. However, for security, it is good practice to have your devices on a separate network from your home or business network. With Blinky-Lite, this does not have to be complicated or expensive.&lt;/p&gt;
+
+&lt;p&gt;It is easy to configure one of the network ports on a Blinky-Lite box as a DHCP server which then can be connected to a simple network switch. Any device connected to  the network switch will be isolated from your home network but will work seamlessly with the built-in Blinky-Lite message broker. The Blinky-Lite technical network can be extended securely to wireless devices by adding a wireless router configured as a DHCP wireless access point to the network switch.&lt;/p&gt;
+
+&lt;p&gt;Pictured below is a Blinky-Lite box installed on a Raspberry Pi 4 computer which costs about 60 euros. The network switch is a 5 port switch from TP-Link (TL-SG105E) which costs about 35 euros. The wireless access point is a TP-Link AC750 router which also costs around 35 euros.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#ff6100;font-weight:900;&quot;&gt;A complete control system for around 130 euros.&lt;/span&gt;&lt;/p&gt;
+
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-12 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-04-03/BlinkyTechnicalNetwork.png&quot;&gt;&lt;img src=&quot;/images//2024-04-03/BlinkyTechnicalNetwork.png&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+
+			
+				<category term="boxes" />
+			
+			
+				<category term="post sub-systems" />
+			
+
+			<published>2024-04-03T00:00:00+02:00</published>
+		</entry>
 	
 		<entry>
 			<id>/boxes/appbuilder/</id>
@@ -554,42 +600,6 @@
 			
 
 			<published>2023-08-08T00:00:00+02:00</published>
-		</entry>
-	
-		<entry>
-			<id>/trays/autoseum/</id>
-			<title>Simrishamn Autoseum</title>
-			<link href="/trays/autoseum/" rel="alternate" type="text/html" title="Simrishamn Autoseum" />
-			<updated>2022-11-08T00:00:00+01:00</updated>
-
-			
-				
-				<author>
-					
-						<name>david-mcginnis</name>
-					
-					
-						<email>david.mcginnis@blinky-lite.org</email>
-					
-					
-						<uri>https://github.com/Blinky-Lite</uri>
-					
-				</author>
-			
-			<summary>A switching system for electric spot price control that saved the museum up to 8300 €/month on their electricity bill</summary>
-			<content type="html" xml:base="/trays/autoseum/">&lt;!--more--&gt;
-
-&lt;p&gt;The Autoseum in Simrishamn (Sweden) has over 200 antique cars climate controlled by a 80kW heat pump. With the current energy crisis, the museum struggled to pay its power bill. A remote interface was built that enabled the heat pump manufacturer to optimize and correct heat pump performance. A switching system was implemented for electric spot price control that &lt;strong&gt;saved the museum up to 8300 €/month on their electricity bill&lt;/strong&gt;&lt;/p&gt;
-</content>
-
-			
-				<category term="trays" />
-			
-			
-				<category term="post instrumentation" />
-			
-
-			<published>2022-11-08T00:00:00+01:00</published>
 		</entry>
 	
 </feed>

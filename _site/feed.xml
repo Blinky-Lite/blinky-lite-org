@@ -9,6 +9,27 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>The Blinky-Lite Technical Network</title>
+				<link>/boxes/tech-network/</link>
+				<pubDate>Wed, 03 Apr 2024 00:00:00 +0200</pubDate>
+				<description>&lt;p&gt;For a startup business, it is so easy to install Blinky-Lite to control and monitor your devices. However, for security, it is good practice to have your devices on a separate network from your home or business network. With Blinky-Lite, this does not have to be complicated or expensive.&lt;/p&gt;
+
+&lt;p&gt;It is easy to configure one of the network ports on a Blinky-Lite box as a DHCP server which then can be connected to a simple network switch. Any device connected to  the network switch will be isolated from your home network but will work seamlessly with the built-in Blinky-Lite message broker. The Blinky-Lite technical network can be extended securely to wireless devices by adding a wireless router configured as a DHCP wireless access point to the network switch.&lt;/p&gt;
+
+&lt;p&gt;Pictured below is a Blinky-Lite box installed on a Raspberry Pi 4 computer which costs about 60 euros. The network switch is a 5 port switch from TP-Link (TL-SG105E) which costs about 35 euros. The wireless access point is a TP-Link AC750 router which also costs around 35 euros.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#ff6100;font-weight:900;&quot;&gt;A complete control system for around 130 euros.&lt;/span&gt;&lt;/p&gt;
+
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-12 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-04-03/BlinkyTechnicalNetwork.png&quot;&gt;&lt;img src=&quot;/images//2024-04-03/BlinkyTechnicalNetwork.png&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</description>
+				<guid isPermaLink="true">/boxes/tech-network/</guid>
+			</item>
+		
+			<item>
 				<title>Application Builder Upgrade</title>
 				<link>/boxes/appbuilder/</link>
 				<pubDate>Wed, 31 Jan 2024 00:00:00 +0100</pubDate>
@@ -308,17 +329,6 @@
 &lt;p&gt;Each module communicates wirelessly. Each module requires a power source with a voltage of 3.7 to 5.2V and draws 1.5 mA of current on average. Each module can support two channels. The detector strip is easy to install and costs 0.5 SEK /meter. The modules have been tested successfully with detector strips over 200 meters in length.&lt;/p&gt;
 </description>
 				<guid isPermaLink="true">/cubes/maxiv-leak/</guid>
-			</item>
-		
-			<item>
-				<title>Simrishamn Autoseum</title>
-				<link>/trays/autoseum/</link>
-				<pubDate>Tue, 08 Nov 2022 00:00:00 +0100</pubDate>
-				<description>&lt;!--more--&gt;
-
-&lt;p&gt;The Autoseum in Simrishamn (Sweden) has over 200 antique cars climate controlled by a 80kW heat pump. With the current energy crisis, the museum struggled to pay its power bill. A remote interface was built that enabled the heat pump manufacturer to optimize and correct heat pump performance. A switching system was implemented for electric spot price control that &lt;strong&gt;saved the museum up to 8300 €/month on their electricity bill&lt;/strong&gt;&lt;/p&gt;
-</description>
-				<guid isPermaLink="true">/trays/autoseum/</guid>
 			</item>
 		
 	</channel>
