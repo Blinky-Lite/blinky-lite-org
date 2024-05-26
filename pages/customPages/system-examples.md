@@ -30,6 +30,6 @@ permalink: "/system-examples/"
         <a href="https://ockhams-razorblade-01.com/"><img src="/images/systemSplash/razorSplash.png" style="border: 5px solid #fff;"></a>
     </div>
     <div class="large-6 columns">
-        <a href="https://blinky-lite-box-01.com/"><img src="/images/systemSplash/blinkySplash.png" style="border: 5px solid #fff;"></a>
+        <a href="https://bl-maxiv-02.app/"><img src="/images/systemSplash/maxivInstSpalsh.png" style="border: 5px solid #fff;"></a>
     </div>
 </div>
