@@ -9,6 +9,27 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>The MaxIV Water Leak Detection System</title>
+				<link>/cubes/arw2024-maxiv-leak/</link>
+				<pubDate>Fri, 05 Jul 2024 00:00:00 +0200</pubDate>
+				<description>&lt;p&gt;Since a substantial source of accelerator downtime and damage results from water leaks, a water leak detection system was installed in the MaxIV 3 GeV tunnel and computer server rooms in the Fall of 2023. This system is over 700 meters long and can determine leak location to within 20 meters.&lt;/p&gt;
+
+&lt;p&gt;The system uses low cost, off-the-shelf, IoT components. Since the system is based on IoT technology, no communications cables are required resulting in a materials cost of about 1.5 euros/meter and an installation cost of 0.2 man-hours/meter.&lt;/p&gt;
+
+&lt;p&gt;The system notifies users of water leaks through the MaxIV Notification system and is also available on native Android and IoS apps. Besides water leak detection, the system alarms on detector fault and communication failure.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;medium-12 columns&quot;&gt;
+        &lt;div style=&quot;position: relative; padding-bottom: 75%;height: 0px;&quot;&gt;
+            &lt;iframe style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 73%;&quot; src=&quot;https://docs.google.com/presentation/d/e/2PACX-1vQlhKm9JDRuqH7Cxd_mu2TEXejNH_udkNUSSV3RKbBEwmzhHJdEV81xtik0YcrwiU0v2fDMq54MVAj0/embed?start=true&amp;amp;loop=true&amp;amp;delayms=10000&quot; frameborder=&quot;5&quot; width=&quot;2000&quot; height=&quot;1044&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</description>
+				<guid isPermaLink="true">/cubes/arw2024-maxiv-leak/</guid>
+			</item>
+		
+			<item>
 				<title>The Blinky-Lite Technical Network</title>
 				<link>/boxes/tech-network/</link>
 				<pubDate>Wed, 03 Apr 2024 00:00:00 +0200</pubDate>
@@ -300,6 +321,8 @@
   
 
     
+      &lt;li&gt;&lt;a href=&quot;/cubes/arw2024-maxiv-leak/&quot;&gt;Instrumentation &amp;middot; &lt;strong&gt;The MaxIV Water Leak Detection System&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
       &lt;li&gt;&lt;a href=&quot;/cubes/maxiv-leak-700/&quot;&gt;Instrumentation &amp;middot; &lt;strong&gt;Over 700 meters of Blinky-Leak system operational at the Max-IV Light Source&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
     
       &lt;li&gt;&lt;a href=&quot;/cubes/Blinky-Thermo-Cam/&quot;&gt;Instrumentation &amp;middot; &lt;strong&gt;Blinky-Thermo-Cam &lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
@@ -318,17 +341,6 @@
 
 </description>
 				<guid isPermaLink="true">/cubes/Blinky-Max31865/</guid>
-			</item>
-		
-			<item>
-				<title>Blinky-Leak System</title>
-				<link>/cubes/maxiv-leak/</link>
-				<pubDate>Tue, 08 Aug 2023 00:00:00 +0200</pubDate>
-				<description>&lt;!--more--&gt;
-
-&lt;p&gt;Each module communicates wirelessly. Each module requires a power source with a voltage of 3.7 to 5.2V and draws 1.5 mA of current on average. Each module can support two channels. The detector strip is easy to install and costs 0.5 SEK /meter. The modules have been tested successfully with detector strips over 200 meters in length.&lt;/p&gt;
-</description>
-				<guid isPermaLink="true">/cubes/maxiv-leak/</guid>
 			</item>
 		
 	</channel>
