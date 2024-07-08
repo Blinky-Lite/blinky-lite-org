@@ -9,6 +9,17 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Gantner Instruments Q-series Tutorial</title>
+				<link>/boxes/gantner/</link>
+				<pubDate>Mon, 08 Jul 2024 00:00:00 +0200</pubDate>
+				<description>&lt;!--more--&gt;
+&lt;p&gt;Take a look at the &lt;a href=&quot;https://player.vimeo.com/video/922887394?dnt=1&quot;&gt;video tutorial&lt;/a&gt; and check out the  &lt;a href=&quot;https://www.gantner-instruments.com/blog/streamlining-data-acquisition/&quot;&gt;Gantner Instruments&lt;/a&gt; blog for more info.&lt;/p&gt;
+
+</description>
+				<guid isPermaLink="true">/boxes/gantner/</guid>
+			</item>
+		
+			<item>
 				<title>The MaxIV Water Leak Detection System</title>
 				<link>/cubes/arw2024-maxiv-leak/</link>
 				<pubDate>Fri, 05 Jul 2024 00:00:00 +0200</pubDate>
@@ -297,50 +308,6 @@
 &lt;/div&gt;
 </description>
 				<guid isPermaLink="true">/cubes/maxiv-server-leak/</guid>
-			</item>
-		
-			<item>
-				<title>Blinky-Max31865 System</title>
-				<link>/cubes/Blinky-Max31865/</link>
-				<pubDate>Sun, 01 Oct 2023 00:00:00 +0200</pubDate>
-				<description>&lt;p&gt;Each module:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;contains two channels with 15 bits of resolution.&lt;/li&gt;
-  &lt;li&gt;is wireless and requires no communication cables.&lt;/li&gt;
-  &lt;li&gt;is low power requiring a power source between 3.7 to 5.2V and draws a maximum current of 65mA&lt;/li&gt;
-  &lt;li&gt;can be operated in pulse mode. The minium length of the current excitation pulse is 100 mS&lt;/li&gt;
-  &lt;li&gt;packaged in a 4-mod wide DIN enclosure&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The system allows the user to enter eighth order calibration curves for each temperature channel. The curves can be either a Taylor series expansion or a Chebyschev polynomial.&lt;/p&gt;
-
-&lt;h2 class=&quot;t60&quot; id=&quot;other-post-instrumentation&quot;&gt;Other Post Instrumentation&lt;/h2&gt;
-
-&lt;ul class=&quot;side-nav&quot;&gt;
-
-  
-
-    
-      &lt;li&gt;&lt;a href=&quot;/cubes/arw2024-maxiv-leak/&quot;&gt;Instrumentation &amp;middot; &lt;strong&gt;The MaxIV Water Leak Detection System&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;/cubes/maxiv-leak-700/&quot;&gt;Instrumentation &amp;middot; &lt;strong&gt;Over 700 meters of Blinky-Leak system operational at the Max-IV Light Source&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;/cubes/Blinky-Thermo-Cam/&quot;&gt;Instrumentation &amp;middot; &lt;strong&gt;Blinky-Thermo-Cam &lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;/cubes/maxiv-server-leak/&quot;&gt;Instrumentation &amp;middot; &lt;strong&gt;Blinky-Leak system installed in Max-IV server rooms&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;/cubes/Blinky-Max31865/&quot;&gt;Instrumentation &amp;middot; &lt;strong&gt;Blinky-Max31865 System&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;/cubes/maxiv-leak/&quot;&gt;Instrumentation &amp;middot; &lt;strong&gt;Blinky-Leak System&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;/trays/autoseum/&quot;&gt;Control &amp;middot; &lt;strong&gt;Simrishamn Autoseum&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-
-  
-&lt;/ul&gt;
-
-</description>
-				<guid isPermaLink="true">/cubes/Blinky-Max31865/</guid>
 			</item>
 		
 	</channel>

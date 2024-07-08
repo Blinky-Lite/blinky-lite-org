@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>/</id>
 	<title>Blinky-Lite</title>
-	<updated>2024-07-05T08:19:25+02:00</updated>
+	<updated>2024-07-08T09:40:52+02:00</updated>
 
 	<subtitle>A full-stack, open-source, remote automation platform</subtitle>
 
@@ -28,6 +28,42 @@
 
 	<generator uri="http://jekyllrb.com" version="4.3.3">Jekyll</generator>
 
+	
+		<entry>
+			<id>/boxes/gantner/</id>
+			<title>Gantner Instruments Q-series Tutorial</title>
+			<link href="/boxes/gantner/" rel="alternate" type="text/html" title="Gantner Instruments Q-series Tutorial" />
+			<updated>2024-07-08T00:00:00+02:00</updated>
+
+			
+				
+				<author>
+					
+						<name>david-mcginnis</name>
+					
+					
+						<email>david.mcginnis@blinky-lite.org</email>
+					
+					
+						<uri>https://github.com/Blinky-Lite</uri>
+					
+				</author>
+			
+			<summary>We have teamed up with Gantner Instruments to develop a remote access data acquisition system that provides reliable, secure and traceable data acquisition.</summary>
+			<content type="html" xml:base="/boxes/gantner/">&lt;!--more--&gt;
+&lt;p&gt;Take a look at the &lt;a href=&quot;https://player.vimeo.com/video/922887394?dnt=1&quot;&gt;video tutorial&lt;/a&gt; and check out the  &lt;a href=&quot;https://www.gantner-instruments.com/blog/streamlining-data-acquisition/&quot;&gt;Gantner Instruments&lt;/a&gt; blog for more info.&lt;/p&gt;
+
+</content>
+
+			
+				<category term="boxes" />
+			
+			
+				<category term="post sub-systems" />
+			
+
+			<published>2024-07-08T00:00:00+02:00</published>
+		</entry>
 	
 		<entry>
 			<id>/cubes/arw2024-maxiv-leak/</id>
@@ -543,75 +579,6 @@
 			
 
 			<published>2024-01-03T00:00:00+01:00</published>
-		</entry>
-	
-		<entry>
-			<id>/cubes/Blinky-Max31865/</id>
-			<title>Blinky-Max31865 System</title>
-			<link href="/cubes/Blinky-Max31865/" rel="alternate" type="text/html" title="Blinky-Max31865 System" />
-			<updated>2023-10-01T00:00:00+02:00</updated>
-
-			
-				
-				<author>
-					
-						<name>david-mcginnis</name>
-					
-					
-						<email>david.mcginnis@blinky-lite.org</email>
-					
-					
-						<uri>https://github.com/Blinky-Lite</uri>
-					
-				</author>
-			
-			<summary>The Blinky-Max31865 System is a precision 4 wire temperature measurement system based on the MAX31865 chip</summary>
-			<content type="html" xml:base="/cubes/Blinky-Max31865/">&lt;p&gt;Each module:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;contains two channels with 15 bits of resolution.&lt;/li&gt;
-  &lt;li&gt;is wireless and requires no communication cables.&lt;/li&gt;
-  &lt;li&gt;is low power requiring a power source between 3.7 to 5.2V and draws a maximum current of 65mA&lt;/li&gt;
-  &lt;li&gt;can be operated in pulse mode. The minium length of the current excitation pulse is 100 mS&lt;/li&gt;
-  &lt;li&gt;packaged in a 4-mod wide DIN enclosure&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The system allows the user to enter eighth order calibration curves for each temperature channel. The curves can be either a Taylor series expansion or a Chebyschev polynomial.&lt;/p&gt;
-
-&lt;h2 class=&quot;t60&quot; id=&quot;other-post-instrumentation&quot;&gt;Other Post Instrumentation&lt;/h2&gt;
-
-&lt;ul class=&quot;side-nav&quot;&gt;
-
-  
-
-    
-      &lt;li&gt;&lt;a href=&quot;/cubes/arw2024-maxiv-leak/&quot;&gt;Instrumentation &amp;middot; &lt;strong&gt;The MaxIV Water Leak Detection System&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;/cubes/maxiv-leak-700/&quot;&gt;Instrumentation &amp;middot; &lt;strong&gt;Over 700 meters of Blinky-Leak system operational at the Max-IV Light Source&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;/cubes/Blinky-Thermo-Cam/&quot;&gt;Instrumentation &amp;middot; &lt;strong&gt;Blinky-Thermo-Cam &lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;/cubes/maxiv-server-leak/&quot;&gt;Instrumentation &amp;middot; &lt;strong&gt;Blinky-Leak system installed in Max-IV server rooms&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;/cubes/Blinky-Max31865/&quot;&gt;Instrumentation &amp;middot; &lt;strong&gt;Blinky-Max31865 System&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;/cubes/maxiv-leak/&quot;&gt;Instrumentation &amp;middot; &lt;strong&gt;Blinky-Leak System&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-      &lt;li&gt;&lt;a href=&quot;/trays/autoseum/&quot;&gt;Control &amp;middot; &lt;strong&gt;Simrishamn Autoseum&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-
-  
-&lt;/ul&gt;
-
-</content>
-
-			
-				<category term="cubes" />
-			
-			
-				<category term="post instrumentation" />
-			
-
-			<published>2023-10-01T00:00:00+02:00</published>
 		</entry>
 	
 </feed>
