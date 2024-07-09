@@ -9,6 +9,25 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Water Leak Incident at MaxIV</title>
+				<link>/cubes/maxiv-leak-incident/</link>
+				<pubDate>Mon, 08 Jul 2024 00:00:00 +0200</pubDate>
+				<description>&lt;p&gt;The water leak detection system for the 3 GeV ring at MaxIV laboratory has been installed for almost one year. Since the installation, no leak has been detected and one might begin to wonder if the system is needed at all.&lt;/p&gt;
+
+&lt;p&gt;However, that all changed during the weekend of Week 27. MaxIV began its summer shutdown at the beginning of Week 26. During the summer shutdown most of the staff leaves for vacation and the control room is not manned on weekends. However, on Friday 5-July, the Blinky-Lite water leak detector system at MaxIV sent out a notification that there was a leak in Sector 14. At first the leak subsided but then returned and grew steadily worse over the weekend. Since there was no staff available on the MaxIV site during the weekend, repair crews could not investigate until the following Monday. On Monday 8-July, the repair crew found a cooling hose leaking in Sector 14 and promptly repaired it.&lt;/p&gt;
+
+&lt;p&gt;Since water leaks rarely get better by themselves and often can become catastrophically worse, the prompt notification to remote observers by the Blinky-Lite water leak detector system during a vacation period when few staff were present probably saved MaxIV from a costly repair and cleanup.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;medium-12 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-07-09/R3LeakDetection2024_07.jpg&quot;&gt;&lt;img src=&quot;/images//2024-07-09/R3LeakDetection2024_07.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</description>
+				<guid isPermaLink="true">/cubes/maxiv-leak-incident/</guid>
+			</item>
+		
+			<item>
 				<title>Gantner Instruments Q-series Tutorial</title>
 				<link>/boxes/gantner/</link>
 				<pubDate>Mon, 08 Jul 2024 00:00:00 +0200</pubDate>
@@ -267,47 +286,6 @@
 &lt;/div&gt;
 </description>
 				<guid isPermaLink="true">/cubes/Blinky-Thermo-Cam/</guid>
-			</item>
-		
-			<item>
-				<title>Blinky-Leak system installed in Max-IV server rooms</title>
-				<link>/cubes/maxiv-server-leak/</link>
-				<pubDate>Wed, 03 Jan 2024 00:00:00 +0100</pubDate>
-				<description>&lt;p&gt;During two days of the 2023-2024 Winter shutdown over 200 meters of Blinky-Leak detector was installed in two of the MaxIV computer server rooms. Each room had four 25 meter strips installed spaced ~1.5 meters apart that ran the length of the room. Two wireless &lt;a href=&quot;https://github.com/Blinky-Lite/blinky-leak-cube&quot;&gt;Blinky-Leak cubes&lt;/a&gt; that could read 2 channels were installed in each room. The complete system is operational and connected to the MaxIV notification system. System performance can be viewed at the &lt;a href=&quot;https://www.bl-maxiv.se/&quot;&gt;BL-Max-IV external apps&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;row t30&quot;&gt;
-    &lt;div class=&quot;medium-6 columns&quot;&gt;
-        &lt;a href=&quot;/images//2024-01-03/2024-01-03-01.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-03/2024-01-03-01.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;medium-6 columns&quot;&gt;
-         &lt;a href=&quot;/images//2024-01-03/2024-01-03-03.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-03/2024-01-03-03.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;row t30&quot;&gt;
-    &lt;div class=&quot;medium-6 columns&quot;&gt;
-         &lt;a href=&quot;/images//2024-01-03/2024-01-03-05.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-03/2024-01-03-05.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;medium-6 columns&quot;&gt;
-         &lt;a href=&quot;/images//2024-01-03/2024-01-03-06.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-03/2024-01-03-06.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;row t30&quot;&gt;
-    &lt;div class=&quot;medium-4 columns&quot;&gt;
-         &lt;a href=&quot;/images//2024-01-03/2024-01-03-02.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-03/2024-01-03-02.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;medium-4 columns&quot;&gt;
-         &lt;a href=&quot;/images//2024-01-03/2024-01-03-04.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-03/2024-01-03-04.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
- 
-    &lt;div class=&quot;medium-4 columns&quot;&gt;
-         &lt;a href=&quot;/images//2024-01-03/2024-01-03-07.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-03/2024-01-03-07.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-</description>
-				<guid isPermaLink="true">/cubes/maxiv-server-leak/</guid>
 			</item>
 		
 	</channel>

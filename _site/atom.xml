@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>/</id>
 	<title>Blinky-Lite</title>
-	<updated>2024-07-08T09:40:52+02:00</updated>
+	<updated>2024-07-09T11:17:39+02:00</updated>
 
 	<subtitle>A full-stack, open-source, remote automation platform</subtitle>
 
@@ -28,6 +28,50 @@
 
 	<generator uri="http://jekyllrb.com" version="4.3.3">Jekyll</generator>
 
+	
+		<entry>
+			<id>/cubes/maxiv-leak-incident/</id>
+			<title>Water Leak Incident at MaxIV</title>
+			<link href="/cubes/maxiv-leak-incident/" rel="alternate" type="text/html" title="Water Leak Incident at MaxIV" />
+			<updated>2024-07-08T00:00:00+02:00</updated>
+
+			
+				
+				<author>
+					
+						<name>david-mcginnis</name>
+					
+					
+						<email>david.mcginnis@blinky-lite.org</email>
+					
+					
+						<uri>https://github.com/Blinky-Lite</uri>
+					
+				</author>
+			
+			<summary>A perfect use case for remote monitoring with Blinky-Lite</summary>
+			<content type="html" xml:base="/cubes/maxiv-leak-incident/">&lt;p&gt;The water leak detection system for the 3 GeV ring at MaxIV laboratory has been installed for almost one year. Since the installation, no leak has been detected and one might begin to wonder if the system is needed at all.&lt;/p&gt;
+
+&lt;p&gt;However, that all changed during the weekend of Week 27. MaxIV began its summer shutdown at the beginning of Week 26. During the summer shutdown most of the staff leaves for vacation and the control room is not manned on weekends. However, on Friday 5-July, the Blinky-Lite water leak detector system at MaxIV sent out a notification that there was a leak in Sector 14. At first the leak subsided but then returned and grew steadily worse over the weekend. Since there was no staff available on the MaxIV site during the weekend, repair crews could not investigate until the following Monday. On Monday 8-July, the repair crew found a cooling hose leaking in Sector 14 and promptly repaired it.&lt;/p&gt;
+
+&lt;p&gt;Since water leaks rarely get better by themselves and often can become catastrophically worse, the prompt notification to remote observers by the Blinky-Lite water leak detector system during a vacation period when few staff were present probably saved MaxIV from a costly repair and cleanup.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;medium-12 columns&quot;&gt;
+        &lt;a href=&quot;/images//2024-07-09/R3LeakDetection2024_07.jpg&quot;&gt;&lt;img src=&quot;/images//2024-07-09/R3LeakDetection2024_07.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+
+			
+				<category term="cubes" />
+			
+			
+				<category term="post instrumentation" />
+			
+
+			<published>2024-07-08T00:00:00+02:00</published>
+		</entry>
 	
 		<entry>
 			<id>/boxes/gantner/</id>
@@ -513,72 +557,6 @@
 			
 
 			<published>2024-01-05T00:00:00+01:00</published>
-		</entry>
-	
-		<entry>
-			<id>/cubes/maxiv-server-leak/</id>
-			<title>Blinky-Leak system installed in Max-IV server rooms</title>
-			<link href="/cubes/maxiv-server-leak/" rel="alternate" type="text/html" title="Blinky-Leak system installed in Max-IV server rooms" />
-			<updated>2024-01-03T00:00:00+01:00</updated>
-
-			
-				
-				<author>
-					
-						<name>david-mcginnis</name>
-					
-					
-						<email>david.mcginnis@blinky-lite.org</email>
-					
-					
-						<uri>https://github.com/Blinky-Lite</uri>
-					
-				</author>
-			
-			<summary>Over 200 meters of blinky-leak detector was installed in the Max-IV server rooms</summary>
-			<content type="html" xml:base="/cubes/maxiv-server-leak/">&lt;p&gt;During two days of the 2023-2024 Winter shutdown over 200 meters of Blinky-Leak detector was installed in two of the MaxIV computer server rooms. Each room had four 25 meter strips installed spaced ~1.5 meters apart that ran the length of the room. Two wireless &lt;a href=&quot;https://github.com/Blinky-Lite/blinky-leak-cube&quot;&gt;Blinky-Leak cubes&lt;/a&gt; that could read 2 channels were installed in each room. The complete system is operational and connected to the MaxIV notification system. System performance can be viewed at the &lt;a href=&quot;https://www.bl-maxiv.se/&quot;&gt;BL-Max-IV external apps&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;row t30&quot;&gt;
-    &lt;div class=&quot;medium-6 columns&quot;&gt;
-        &lt;a href=&quot;/images//2024-01-03/2024-01-03-01.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-03/2024-01-03-01.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;medium-6 columns&quot;&gt;
-         &lt;a href=&quot;/images//2024-01-03/2024-01-03-03.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-03/2024-01-03-03.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;row t30&quot;&gt;
-    &lt;div class=&quot;medium-6 columns&quot;&gt;
-         &lt;a href=&quot;/images//2024-01-03/2024-01-03-05.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-03/2024-01-03-05.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;medium-6 columns&quot;&gt;
-         &lt;a href=&quot;/images//2024-01-03/2024-01-03-06.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-03/2024-01-03-06.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;row t30&quot;&gt;
-    &lt;div class=&quot;medium-4 columns&quot;&gt;
-         &lt;a href=&quot;/images//2024-01-03/2024-01-03-02.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-03/2024-01-03-02.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;medium-4 columns&quot;&gt;
-         &lt;a href=&quot;/images//2024-01-03/2024-01-03-04.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-03/2024-01-03-04.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
- 
-    &lt;div class=&quot;medium-4 columns&quot;&gt;
-         &lt;a href=&quot;/images//2024-01-03/2024-01-03-07.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-03/2024-01-03-07.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-</content>
-
-			
-				<category term="cubes" />
-			
-			
-				<category term="post instrumentation" />
-			
-
-			<published>2024-01-03T00:00:00+01:00</published>
 		</entry>
 	
 </feed>
