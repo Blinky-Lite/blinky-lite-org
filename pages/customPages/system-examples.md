@@ -22,7 +22,7 @@ permalink: "/system-examples/"
         <a href="https://bl-maxiv.se/"><img src="/images/systemSplash/maxivSplash.png" style="border: 5px solid #fff;"></a>
     </div>
     <div class="large-6 columns">
-        <a href="https://bl-cryovac-01.app/"><img src="/images/systemSplash/iterSplash.png" style="border: 5px solid #fff;"></a>
+        <a href="https://bl-cryovac-01.app/"><img src="/images/systemSplash/cryoVacSplash.png" style="border: 5px solid #fff;"></a>
     </div>
 </div>
 <div class="row  t10">
