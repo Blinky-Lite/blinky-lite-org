@@ -9,6 +9,39 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Chladni Plate Demo</title>
+				<link>/trays/chladni/</link>
+				<pubDate>Fri, 20 Sep 2024 00:00:00 +0200</pubDate>
+				<description>&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;span&gt;&lt;img width=&quot;50px&quot; src=&quot;/images//2024-09-20/swedenFlag.jpg&quot; /&gt;&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;span&gt;&lt;img width=&quot;50px&quot; src=&quot;/images//2024-09-20/ukFlag.jpg&quot; /&gt;&lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;div style=&quot;padding:56.25% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/1010856948?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;5&quot; allow=&quot;autoplay; fullscreen; picture-in-picture; clipboard-write&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;Chladni Plate Demo at Max4 in Svenska&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;div style=&quot;padding:56.25% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/1010725409?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;5&quot; allow=&quot;autoplay; fullscreen; picture-in-picture; clipboard-write&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;Chladni Plate Demo at Max4 in English&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Max 4 makes bright light by wiggling electrons at high energies. The energy of the electron beam at Max IV is 3 billion Volts.  How do we get to such high energies into the electron beam? Well, we do it a little at a time by resonantly storing energy with electro-magnetic waves.&lt;/p&gt;
+
+&lt;p&gt;Because we cannot see electro-magnetic waves, this all seems very complicated. But sound waves behave very similar to electric waves and we can hear or “see” sound waves. One way to visualize sound waves is to use a Chladni plate. By vibrating metal plates at specific frequencies or tones, one can excite vibration resonances.&lt;/p&gt;
+
+&lt;p&gt;There will be places on the metal plate where the reflected waves add up and other places where the reflected waves cancel each other. One can see these patterns by sprinkling sand over the metal plate. Sand particles will be kicked away from the places where the reflected waves add up; and gather at the places where the reflected waves cancel.&lt;/p&gt;
+
+&lt;p&gt;By exciting the plates at different sound frequencies, one can excite different modes. since the metal plate is 2 dimensional, complicated and beautiful modes can be observed.&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">/trays/chladni/</guid>
+			</item>
+		
+			<item>
 				<title>Water Leak Incident at MaxIV</title>
 				<link>/cubes/maxiv-leak-incident/</link>
 				<pubDate>Mon, 08 Jul 2024 00:00:00 +0200</pubDate>
@@ -252,40 +285,6 @@
 &lt;/div&gt;
 </description>
 				<guid isPermaLink="true">/cubes/maxiv-leak-700/</guid>
-			</item>
-		
-			<item>
-				<title>Blinky-Thermo-Cam </title>
-				<link>/cubes/Blinky-Thermo-Cam/</link>
-				<pubDate>Fri, 05 Jan 2024 00:00:00 +0100</pubDate>
-				<description>&lt;p&gt;Since the Blinky-Lite framework uses &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt; for storing data, integration into &lt;a href=&quot;https://jupyterlab.readthedocs.io/en/latest/&quot;&gt;JupyterLab&lt;/a&gt; using &lt;a href=&quot;https://pymongo.readthedocs.io/en/stable/&quot;&gt;PyMongo&lt;/a&gt; is straightforward. As an example, we integrated the &lt;a href=&quot;https://github.com/Blinky-Lite/blinky-thermo-cam-cube&quot;&gt;Blinky-Thermo-Cam&lt;/a&gt; with JupyterLab. This integration could be used to &lt;span style=&quot;color:#ff6100;font-weight: bold&quot;&gt; develop deep-learning models&lt;/span&gt; for thermal imaging streams which could be useful in many diverse  fields such as &lt;span style=&quot;color:cyan;font-weight: bold&quot;&gt;animal monitoring, chemical process monitoring, or equipment failure diagnosis&lt;/span&gt;.&lt;/p&gt;
-
-&lt;p&gt;Blinky-Thermo-Cam is a low cost, remotely deployable, thermal imaging processing system based on the &lt;a href=&quot;https://www.flir.com/products/lepton/?vertical=microcam&amp;amp;segment=oem&quot;&gt;Flir Lepton LWIR Micro Thermal Camera Module&lt;/a&gt;. Blinky-Thermo-Cam is wireless and can operate on 5V batteries for remote operation. Periodic, manual, or motion triggering modes are available.&lt;/p&gt;
-
-&lt;div class=&quot;row t30&quot;&gt;
-    &lt;div class=&quot;medium-6 columns&quot;&gt;
-        &lt;a href=&quot;/images//2024-01-05/2024-01-05-02.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-05/2024-01-05-02.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;medium-6 columns&quot;&gt;
-        &lt;div style=&quot;position: relative; padding-bottom: 75%;height: 0px;&quot;&gt;
-            &lt;iframe style=&quot;position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; src=&quot;https://player.vimeo.com/video/906812643?dnt=1&quot;&gt;&lt;/iframe&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;row t30&quot;&gt;
-    &lt;div class=&quot;medium-4 columns&quot;&gt;
-         &lt;a href=&quot;/images//2024-01-05/2024-01-05-03.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-05/2024-01-05-03.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;medium-4 columns&quot;&gt;
-         &lt;a href=&quot;/images//2024-01-05/2024-01-05-05.png&quot;&gt;&lt;img src=&quot;/images//2024-01-05/2024-01-05-05.png&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;medium-4 columns&quot;&gt;
-         &lt;a href=&quot;/images//2024-01-05/2024-01-05-04.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-05/2024-01-05-04.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-</description>
-				<guid isPermaLink="true">/cubes/Blinky-Thermo-Cam/</guid>
 			</item>
 		
 	</channel>
