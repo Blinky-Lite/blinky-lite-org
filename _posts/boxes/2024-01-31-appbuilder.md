@@ -32,7 +32,7 @@ Cards can be arranged in an order and the can be more than one CubeRowCard. Ther
 - [VectorPlotCard]({{ site.urlimg }}/2024-01-31/vectorPlot.png)
 - [IframeCard]({{ site.urlimg }}/2024-01-31/iframePlot.png)
 - [UserCard]({{ site.urlimg }}/2024-01-31/userCard.png)
-- [CustomCard]
+- [CustomCard]({{ site.urlimg }}/2024-01-31/customCard.png)
 
 ## Application Builder CubeRowCard Widgets
 For the CubeRowCard there are 13  widgets defined.
