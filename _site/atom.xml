@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>/</id>
 	<title>Blinky-Lite</title>
-	<updated>2024-11-25T07:19:58+01:00</updated>
+	<updated>2024-11-25T07:26:15+01:00</updated>
 
 	<subtitle>A full-stack, open-source, remote automation platform</subtitle>
 
@@ -33,7 +33,7 @@
 			<id>/trays/manDown/</id>
 			<title>Blinky-Lite IWA</title>
 			<link href="/trays/manDown/" rel="alternate" type="text/html" title="Blinky-Lite IWA" />
-			<updated>2024-11-24T00:00:00+01:00</updated>
+			<updated>2024-11-25T00:00:00+01:00</updated>
 
 			
 				
@@ -107,7 +107,7 @@
 				<category term="post sub-systems" />
 			
 
-			<published>2024-11-24T00:00:00+01:00</published>
+			<published>2024-11-25T00:00:00+01:00</published>
 		</entry>
 	
 		<entry>
