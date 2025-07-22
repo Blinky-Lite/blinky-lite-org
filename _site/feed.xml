@@ -9,6 +9,41 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>BinaryFlagCube Added to Application Builder</title>
+				<link>/boxes/binaryFlagWidget/</link>
+				<pubDate>Tue, 22 Jul 2025 00:00:00 +0200</pubDate>
+				<description>&lt;div class=&quot;row t30&quot;&gt;
+    &lt;div class=&quot;medium-3 columns&quot;&gt;&lt;span style=&quot;color: #083357;&quot;&gt;.&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;medium-6 columns&quot;&gt;
+        &lt;a href=&quot;/images//2025-07-22/binaryFlagCube.png&quot;&gt;&lt;img style=&quot;border: 5px solid #ff6100;&quot; src=&quot;/images//2025-07-22/binaryFlagCube.png&quot; /&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;medium-3 columns&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Often, digital status for many devices is stored as a single integer with the individual bits signifting the digital status. This can be difficult to display so we just add the BinaryFlagCube widget to the Blinky-Lite &lt;a href=&quot;https://www.blinky-lite.org/boxes/appbuilder/&quot;&gt;application builder&lt;/a&gt; to make it easy to add this functionality to customized user applications.  When the cursor is rolled over the bit display, a tool-tip describing the flag is displayed. The display can be set to a subset of the bits in the flag and the direction of the bits can also be changed.&lt;/p&gt;
+
+&lt;p&gt;An example JSON object is:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{
+  type: &apos;BinaryFlagCube&apos;,
+  config: 
+  {
+    trayIndex: 0,
+    cubeName: &apos;watchdog&apos;,
+    cubeLabel: &apos;Watchdog&apos;,
+    startBit: 0,
+    stopBit: 14,
+    bitLabels: [&apos;b0&apos;,&apos;b1&apos;,&apos;b2&apos;,&apos;b3&apos;,&apos;b4&apos;,&apos;b5&apos;,&apos;b6&apos;,&apos;b7&apos;,&apos;b8&apos;,&apos;b9&apos;,&apos;b10&apos;,&apos;b11&apos;,&apos;b12&apos;,&apos;b13&apos;,&apos;b14&apos;],
+    offColor: &apos;blue&apos;,
+    onColor: &apos;yellow&apos;,
+    borderColor: &apos;green&apos;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+				<guid isPermaLink="true">/boxes/binaryFlagWidget/</guid>
+			</item>
+		
+			<item>
 				<title>Blinky-Lite IWA</title>
 				<link>/trays/manDown/</link>
 				<pubDate>Mon, 25 Nov 2024 00:00:00 +0100</pubDate>
@@ -309,44 +344,6 @@
 &lt;/ul&gt;
 </description>
 				<guid isPermaLink="true">/boxes/appbuilder/</guid>
-			</item>
-		
-			<item>
-				<title>Blinky-Lite Mode 0 beam stabilization system</title>
-				<link>/trays/mode0/</link>
-				<pubDate>Wed, 24 Jan 2024 00:00:00 +0100</pubDate>
-				<description>&lt;p&gt;3 GeV Beam operations at maximum intensity has just resumed at MaxIV for 2024. The mode 0 beam stabilization system has been key to achieving the MaxIV beam brightness. Without the system, MaxIV would only be able operate at 25% of its current operating intensity. The Mode 0 beam stabilization system is based on the &lt;a href=&quot;https://redpitaya.com/stemlab-125-14/&quot;&gt;Red Pitaya StemLab125-14&lt;/a&gt; RF signal acquisition and generation platform  integrated into the Blinky-Lite framework resulting in a compact, low-cost but robust system. The Red Pitaya Mode 0 system has been operating for over a year without causing any down-time to the accelerator.&lt;/p&gt;
-
-&lt;div class=&quot;row t30&quot;&gt;
-    &lt;div class=&quot;medium-4 columns&quot;&gt;
-        &lt;a href=&quot;/images//2024-01-24/2024-01-24-01.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-01.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;medium-4 columns&quot;&gt;
-        &lt;a href=&quot;/images//2024-01-24/2024-01-24-02.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-02.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;medium-4 columns&quot;&gt;
-        &lt;a href=&quot;/images//2024-01-24/2024-01-24-03.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-03.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;row t30&quot;&gt;
-    &lt;div class=&quot;medium-6 columns&quot;&gt;
-        &lt;a href=&quot;/images//2024-01-24/2024-01-24-04.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-04.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;medium-6 columns&quot;&gt;
-        &lt;a href=&quot;/images//2024-01-24/2024-01-24-05.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-05.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;row t30&quot;&gt;
-    &lt;div class=&quot;medium-6 columns&quot;&gt;
-        &lt;a href=&quot;/images//2024-01-24/2024-01-24-06.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-06.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;medium-6 columns&quot;&gt;
-        &lt;a href=&quot;/images//2024-01-24/2024-01-24-07.jpg&quot;&gt;&lt;img src=&quot;/images//2024-01-24/2024-01-24-07.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-</description>
-				<guid isPermaLink="true">/trays/mode0/</guid>
 			</item>
 		
 	</channel>
