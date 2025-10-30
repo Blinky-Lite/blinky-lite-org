@@ -13,12 +13,13 @@ widget1:
 widget2:
   title: "Architecture"
   video: '<a href="#" data-reveal-id="videoModal2"><img src="/images/archThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/></a>'
-widget3:
-  title: "A Compact Superconducting Accelerator"
-  video: '<a href="#" data-reveal-id="videoModal3"><img src="/images/fermilabThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/></a>'
-widget4:
-  title: "ConcenSmart"
-  video: '<a href="#" data-reveal-id="videoModal4"><img src="/images/concenSmartThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/></a>'
+
+#widget3:
+#  title: "A Compact Superconducting Accelerator"
+#  video: '<a href="#" data-reveal-id="videoModal3"><img src="/images/fermilabThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/></a>'
+#widget4:
+#  title: "ConcenSmart"
+#  video: '<a href="#" data-reveal-id="videoModal4"><img src="/images/concenSmartThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/><a>'
 
 #
 # Use the call for action to show a button on the frontpage
