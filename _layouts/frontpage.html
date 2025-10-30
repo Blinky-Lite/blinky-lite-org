@@ -23,13 +23,27 @@ format: frontpage
 
 	{% if page.widget2.image or page.widget2.video or page.widget2.title %}
 		{% include _frontpage-widget.html widget=page.widget2 %}
-	{% endif %}
+    {% endif %}
 
+</div><!-- /.row -->
+
+<div>
+    <div class="row">
+        <div class="small-12 columns">
+            <h2 style="color:#fdc100;">Case Studies</h2>
+        </div>
+    </div>
+</div>
+<div class="row ">
 	{% if page.widget3.image or page.widget3.video or page.widget3.title %}
 		{% include _frontpage-widget.html widget=page.widget3 %}
 	{% endif %}
-</div><!-- /.row -->
 
+	{% if page.widget4.image or page.widget4.video or page.widget4.title %}
+		{% include _frontpage-widget.html widget=page.widget4 %}
+    {% endif %}
+
+</div><!-- /.row -->
 
 
 {% comment %}
