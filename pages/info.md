@@ -4,6 +4,6 @@ title               : ""
 meta_title          : ""
 subheadline         : ""
 teaser              : "Send us an email at:"
-permalink           : "/contact/"
+permalink           : "/info/"
 ---
 <a href = "mailto: info@blinky-lite.org">info@blinky-lite.org</a>

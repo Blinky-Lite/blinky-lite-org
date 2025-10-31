@@ -2,25 +2,6 @@
   url: "/"
   side: left
 
-- title: System examples
-  url: "/system-examples/"
-  side: left
-  dropdown:
-  - title: "Summary"
-    url: "/system-examples/"
-  - title: "Max-IV Beaminline Instrumentation R&D"
-    url: "https://bl-maxiv-02.app/"
-  - title: "Mirrotron Compact Neutron Source"
-    url: "https://bl-mirrotron-01.com/"
-  - title: "Fermilab Compact SRF Accelerator"
-    url: "https://bl-fermi-01.app//"
-  - title: "MaxIV Accelerator Instrumentation"
-    url: "https://bl-maxiv.se/"
-  - title: "Cryo-Vacuum Test Stand"
-    url: "https://bl-cryovac-01.app/"
-  - title: "Ockham Technologies"
-    url: "https://ockhams-razorblade-01.com/"
-
 - title: Documentation
   url: "/docs/"
   side: left

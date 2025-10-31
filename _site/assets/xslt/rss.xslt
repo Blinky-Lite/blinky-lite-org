@@ -139,62 +139,6 @@
 
             
             
-
-              <li class="has-dropdown">
-                <a  href="/system-examples/">System examples</a>
-
-                  <ul class="dropdown">
-                    
-
-                      
-
-                      <li><a  href="/system-examples/">Summary</a></li>
-                    
-
-                      
-
-                      <li><a  href="https://bl-maxiv-02.app/" target="_blank">Max-IV Beaminline Instrumentation R&amp;D</a></li>
-                    
-
-                      
-
-                      <li><a  href="https://bl-mirrotron-01.com/" target="_blank">Mirrotron Compact Neutron Source</a></li>
-                    
-
-                      
-
-                      <li><a  href="https://bl-fermi-01.app//" target="_blank">Fermilab Compact SRF Accelerator</a></li>
-                    
-
-                      
-
-                      <li><a  href="https://bl-maxiv.se/" target="_blank">MaxIV Accelerator Instrumentation</a></li>
-                    
-
-                      
-
-                      <li><a  href="https://bl-cryovac-01.app/" target="_blank">Cryo-Vacuum Test Stand</a></li>
-                    
-
-                      
-
-                      <li><a  href="https://ockhams-razorblade-01.com/" target="_blank">Ockham Technologies</a></li>
-                    
-                  </ul>
-
-              </li>
-              <li class="divider"></li>
-            
-          
-        
-
-              
-
-          
-          
-
-            
-            
               <li><a  href="/docs/">Documentation</a></li>
               <li class="divider"></li>
 
@@ -235,14 +179,6 @@
       
 
       <ul class="right">
-        
-
-              
-
-
-
-          
-          
         
 
               
@@ -391,7 +327,7 @@
 
             <p class="shadow-black">
               A full-stack, open-source, remote automation platform
-              <a href="/info/">More ›</a>
+              <a href="/info/">More</a>
             </p>
           </div><!-- /.large-6.columns -->
 
@@ -400,12 +336,6 @@
             
               
                 <h5 class="shadow-black">Services</h5>
-              
-            
-              
-            
-              
-            
               
             
               
@@ -421,21 +351,6 @@
                 
                   <li >
                     <a href="/contact/"  title="Contact">Contact</a>
-                  </li>
-              
-                
-                  <li >
-                    <a href="/feed.xml"  title="Subscribe to RSS Feed">RSS</a>
-                  </li>
-              
-                
-                  <li >
-                    <a href="/atom.xml"  title="Subscribe to Atom Feed">Atom</a>
-                  </li>
-              
-                
-                  <li >
-                    <a href="/sitemap.xml"  title="Sitemap for Google Webmaster Tools">sitemap.xml</a>
                   </li>
               
               </ul>
@@ -465,7 +380,7 @@
             
               <li><a href="https://github.com/Blinky-Lite" target="_blank" class="icon-github" title="Github"></a></li>
             
-              <li><a href="https://www.facebook.com/profile.php?id=100071178946447" target="_blank" class="icon-facebook" title=""></a></li>
+              <li><a href="https://www.linkedin.com/company/blinky-lite" target="_blank" class="icon-linkedin" title=""></a></li>
             
             </ul>
           </section>
