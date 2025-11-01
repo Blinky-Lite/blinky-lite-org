@@ -4,7 +4,7 @@ show_meta: false
 title: "Trays"
 subheadline: ""
 header:
-    image_fullwidth: mirrotronCoolingHdr.jpg
+    image_fullwidth: mainSplash.png
 permalink: "/trays/"
 ---
 <ul>

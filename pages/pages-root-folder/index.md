@@ -6,7 +6,7 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: mirrotronCoolingHdr.jpg
+  image_fullwidth: mainSplash.png
 widget1:
   title: "Overview"
   video: '<a href="#" data-reveal-id="videoModal1"><img src="/images/overviewThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/></a>'

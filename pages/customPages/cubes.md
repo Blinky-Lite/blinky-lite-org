@@ -4,7 +4,7 @@ show_meta: false
 title: "Cubes"
 subheadline: ""
 header:
-   image_fullwidth: "mirrotronCoolingHdr.jpg"
+   image_fullwidth: "mainSplash.png"
 permalink: "/cubes/"
 ---
 <ul>
