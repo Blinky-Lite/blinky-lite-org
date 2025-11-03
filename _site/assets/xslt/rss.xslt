@@ -178,7 +178,7 @@
 
                       
 
-                      <li><a  href="https://www.bl-mc.se/" target="_blank">BL Monitor &amp; Control</a></li>
+                      <li><a  href="https://bl-mc.com/" target="_blank">BL Monitor &amp; Control</a></li>
                     
                   </ul>
 

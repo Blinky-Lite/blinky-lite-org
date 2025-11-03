@@ -23,7 +23,7 @@
   side: left
   dropdown:
   - title: "BL Monitor & Control"
-    url: "https://www.bl-mc.se/"
+    url: "https://bl-mc.com/"
 
 - title: "Search"
   url: "/search/"
