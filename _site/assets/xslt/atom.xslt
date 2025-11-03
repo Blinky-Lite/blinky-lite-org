@@ -166,6 +166,32 @@
 
           
           
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="">Sponsors</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="https://www.bl-mc.se/" target="_blank">BL Monitor &amp; Control</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
         
 
               
@@ -179,6 +205,14 @@
       
 
       <ul class="right">
+        
+
+              
+
+
+
+          
+          
         
 
               

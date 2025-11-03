@@ -18,6 +18,12 @@
 #    url: "/cubes/"
 #  - title: "Post Archive"
 #    url: "/blog/archive/"
+- title: Sponsors
+#  url: "/blog/"
+  side: left
+  dropdown:
+  - title: "BL Monitor & Control"
+    url: "https://www.bl-mc.se/"
 
 - title: "Search"
   url: "/search/"
