@@ -315,7 +315,7 @@
 
 <div class="medium-6 columns frontpage-widget">
 	
-		<a href="#" data-reveal-id="videoModal1"><img src="/images/overviewThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/></a>
+		<a href="#" data-reveal-id="videoModal1" onclick="toppy(1)" ><img src="/images/overviewThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/></a>
 	
 	<h2 class="font-size-h3 t10">Overview</h2>
 
@@ -334,7 +334,7 @@
 
 <div class="medium-6 columns frontpage-widget">
 	
-		<a href="#" data-reveal-id="videoModal2"><img src="/images/archThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/></a>
+		<a href="#" data-reveal-id="videoModal2" onclick="toppy(1)" ><img src="/images/archThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/></a>
 	
 	<h2 class="font-size-h3 t10">Architecture</h2>
 
@@ -427,6 +427,14 @@
   </div>
   <a class="close-reveal-modal">&#215;</a>
 </div>
+
+<script>
+  function toppy(videoModal)
+  {
+    let topValue1 = parseInt(window.getComputedStyle(document.getElementById("videoModal" + videoModal.toString())).getPropertyValue('top').replace('px',''), 10);
+    if (topValue1 < 10) window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
 
 <p><a href="https://docs.google.com/presentation/d/e/2PACX-1vRG3nJ5e0Zz-bhrKx68-7E6T7x23cLjuwj2gvveQOSaV3GjceNPJEmz7dPGEa4WUYVPRx3xo789TKIg/pub?start=false&amp;loop=false">Overview presentation</a></p>
 

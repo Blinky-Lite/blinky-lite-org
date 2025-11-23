@@ -9,10 +9,10 @@ header:
   image_fullwidth: mainSplash.png
 widget1:
   title: "Overview"
-  video: '<a href="#" data-reveal-id="videoModal1"><img src="/images/overviewThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/></a>'
+  video: '<a href="#" data-reveal-id="videoModal1" onclick="toppy(1)" ><img src="/images/overviewThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/></a>'
 widget2:
   title: "Architecture"
-  video: '<a href="#" data-reveal-id="videoModal2"><img src="/images/archThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/></a>'
+  video: '<a href="#" data-reveal-id="videoModal2" onclick="toppy(1)" ><img src="/images/archThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/></a>'
 
 
 #
@@ -48,5 +48,13 @@ homepage: true
   </div>
   <a class="close-reveal-modal">&#215;</a>
 </div>
+
+<script>
+  function toppy(videoModal)
+  {
+    let topValue1 = parseInt(window.getComputedStyle(document.getElementById("videoModal" + videoModal.toString())).getPropertyValue('top').replace('px',''), 10);
+    if (topValue1 < 10) window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
 
 [Overview presentation](https://docs.google.com/presentation/d/e/2PACX-1vRG3nJ5e0Zz-bhrKx68-7E6T7x23cLjuwj2gvveQOSaV3GjceNPJEmz7dPGEa4WUYVPRx3xo789TKIg/pub?start=false&loop=false)
