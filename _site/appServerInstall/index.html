@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Blinky-Lite</title>
+	<title>Application Server Installation</title>
 
     <link rel="stylesheet" type="text/css" href="/assets/css/styles_feeling_responsive.css">
 
@@ -32,13 +32,13 @@
 	
 	
 	
-	<link rel="canonical" href="/index.html">
+	<link rel="canonical" href="/appServerInstall/">
 
 
 	<!-- Facebook Open Graph -->
-	<meta property="og:title" content="Blinky-Lite">
+	<meta property="og:title" content="Application Server Installation">
 	<meta property="og:description" content="A full-stack, open-source, remote automation platform">
-	<meta property="og:url" content="/index.html">
+	<meta property="og:url" content="/appServerInstall/">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Blinky-Lite">
@@ -51,7 +51,7 @@
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="phlow">
 	<meta name="twitter:creator" content="phlow">
-	<meta name="twitter:title" content="Blinky-Lite">
+	<meta name="twitter:title" content="Application Server Installation">
 	<meta name="twitter:description" content="A full-stack, open-source, remote automation platform">
 	
 	
@@ -94,7 +94,7 @@
 
 
 </head>
-<body id="top-of-page" class="frontpage">
+<body id="top-of-page" class="post">
 	
 	
 <div id="navigation" class="sticky">
@@ -118,7 +118,7 @@
 
             
             
-              <li class="active"><a  href="/">Start</a></li>
+              <li><a  href="/">Start</a></li>
               <li class="divider"></li>
 
             
@@ -315,150 +315,117 @@
 
 
 
-	<div id="header-home">
-    <div class="row">
-        <div class="small-12 columns">
-            <h2 style="color:white;">A full-stack, <u>open-source</u>, remote automation platform</h2>
-        </div><!-- /.medium-4.columns -->
-    </div><!-- /.row -->
-</div><!-- /#header-home -->
+	<div class="row t30">
+	<div class="medium-8 columns medium-offset-2 end">
+		<article itemscope itemtype="http://schema.org/Article">
+			<header>
+				
+
+				<div itemprop="name">
+					<p class="subheadline"></p>
+					<h1>Application Server Installation</h1>
+				</div>
+			</header>
 
 
+			
 
-<div class="row t60">
-	
-		
-
-
-
-
-
-
-<div class="medium-6 columns frontpage-widget">
-	
-		<a href="#" data-reveal-id="videoModal1" onclick="toppy(1)" ><img src="/images/overviewThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/></a>
-	
-	<h2 class="font-size-h3 t10">Overview</h2>
-
-	<p></p>
-	
+			<div itemprop="articleSection">
+			<div align="center">
+    <a href="#" data-reveal-id="videoModal5" onclick="toppy(5)">
+        <img src="/images/installThumb2.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;" />
+    </a>
 </div>
-	
+<p><br /></p>
 
-	
-		
+<p>This tutorial will show you how to install Blinky-Lite on a <a href="https://ubuntu.com/download/server">Ubuntu Server</a> that is installed on amd64 or x86_64. The server should have at least 2048MB of memory and 20GB of disk space.</p>
 
+<h2 id="installing-portainer">Installing Portainer</h2>
+<p>Blinky-Lite is composed of a number of Docker containers. We use a web based tool called <a href="https://www.portainer.io/">Portainer</a> to install and orchestrate the containers. From a terminal on your application server, retrieve the Blinky-Lite Portainer installation script</p>
 
+<p><code>wget https://raw.githubusercontent.com/Blinky-Lite/blinky-compose/main/scripts/installDockerPortainer.sh</code></p>
 
+<p>Give the script execution privileges</p>
 
+<p><code>chmod +x installDockerPortainer.sh</code></p>
 
+<p>Run the script and supply a password for administering the Portainer web app. The password must be at least 12 characters long.</p>
 
-<div class="medium-6 columns frontpage-widget">
-	
-		<a href="#" data-reveal-id="videoModal2" onclick="toppy(1)" ><img src="/images/archThumb.png" width="450" height="253" alt="" style="border: 5px solid #89bee6;"/></a>
-	
-	<h2 class="font-size-h3 t10">Architecture</h2>
+<p><code>./installDockerPortainer.sh <i>doNotUseThisPassword</i></code></p>
 
-	<p></p>
-	
-</div>
-    
+<p>The script will take a while to execute and give a message</p>
 
-</div><!-- /.row -->
+<p><i>…Finished installing docker..serving Portainer on port 9000</i></p>
 
+<p>when complete.</p>
 
-
-
-
-
-
-
-
-
-
-
-    <div class="row b20 homepage">
-        <h2><a class="button large radius" href="/blog">Posts</a></h2>
-        <div class="small-12 columns">
-            
-            
-            <h2>New Posts</h2>
-            
-            
-        </div><!-- /.small-12.columns -->
-    </div><!-- /.row -->
-
-
-    <div class="row">
-        <div class="medium-6 columns">
-            
-            <p class="subheadline">systems</p>
-            <h2><a href="/boxes/binaryFlagWidget/">BinaryFlagCube Added to Application Builder</a></h2>
-            <p>
-                to graphically display digital status
-                <a href="/boxes/binaryFlagWidget/" title="Read BinaryFlagCube Added to Application Builder"><strong>Read More&nbsp;›</strong></a>
-            </p>
-            
-        </div><!-- /.medium-5.columns -->
-
-
-        <div class="medium-6 columns">
-            <p><strong>More Articles</strong></p>
-            
-
-
-
-
-
-<ul class="side-nav">
-
-  
-
-    
-      <li><a href="/boxes/xyPlot/">systems &middot; <strong>XY Plotter Added to Application Builder</strong></a></li>
-    
-      <li><a href="/boxes/tech-network/">sub-systems &middot; <strong>The Blinky-Lite Technical Network</strong></a></li>
-    
-      <li><a href="/boxes/appbuilder/">systems &middot; <strong>Application Builder Upgrade</strong></a></li>
-    
-      <li class="text-right"><a href="/blog/archive/"><strong>More</strong></a></li>
-
-
-  
+<h2 id="download-blinky-compose">Download blinky-compose</h2>
+<p>Now open a browser that is on the same network as the Ubuntu server.</p>
+<ul>
+  <li>Navigate to the <a href="https://github.com/Blinky-Lite/blinky-compose">blinky-compose repository</a>.</li>
+  <li>Click the green Code button and select the Download zip option at the bottom of the dialog window.</li>
+  <li>After the zip file has been downloaded, go to your download folder and extract the zip file.</li>
 </ul>
 
+<h2 id="configure-the-blinky-lite-stack">Configure the blinky-Lite stack</h2>
+<p>Return to your web browser and in the address bar enter the IP address of your Ubuntu server followed by a :9000 to navigate to the Portainer web app.</p>
+<ul>
+  <li>The username for Portainer is admin and the password is what you entered during the installation script.</li>
+  <li>Click on the “Get Started” button and then click on the Docker icon to reach the Docker dashboard.</li>
+  <li>From the Docker dashboard click on the “stacks” button.</li>
+  <li>Press the blue “Add Stack” button and enter the name for your Blinky-Lite stack.</li>
+  <li>It is recommended to use blinky-lite as the stack name.</li>
+  <li>Click on the upload option and then under the upload section, press the Select file button.</li>
+  <li>Navigate to your download directory and open the blinky-compose-main directory that you extracted.</li>
+  <li>Select the blinky-lite.yaml file.</li>
+  <li>Next, select the “Load variables from env file” button and navigate to the download directory.</li>
+  <li>Navigate to the env directory and select the blinky-lite.env file.
+    <h3 id="configure-the-blinky-lite-env-variables">Configure the Blinky-Lite env variables</h3>
+    <p>Fill in the environmental variables into the table as shown.</p>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">DOCKER_TAG</code> - Enter <code class="language-plaintext highlighter-rouge">amd64</code> for now. More choices in the future</li>
+  <li><code class="language-plaintext highlighter-rouge">BLINKYLITE_PASSWORD</code> - same password as you used for the portainer app</li>
+  <li><code class="language-plaintext highlighter-rouge">BOX</code> - name of your blinky-lite box eg. my-blinky-box-01</li>
+  <li><code class="language-plaintext highlighter-rouge">REMOTE_MQTTSERVER</code> - Enter <code class="language-plaintext highlighter-rouge">none</code>. Since this is an introductory tutorial we will not use an external MQTT broker as a bridge</li>
+  <li><code class="language-plaintext highlighter-rouge">REMOTE_MQTTUSER</code> - Enter <code class="language-plaintext highlighter-rouge">none</code></li>
+  <li><code class="language-plaintext highlighter-rouge">REMOTE_MQTTPASSWORD</code> - Enter <code class="language-plaintext highlighter-rouge">none</code></li>
+  <li><code class="language-plaintext highlighter-rouge">HUB</code> - Enter <code class="language-plaintext highlighter-rouge">blinky-hub</code></li>
+  <li><code class="language-plaintext highlighter-rouge">EXTRA_HUB_TOPIC1</code> - Enter <code class="language-plaintext highlighter-rouge">none</code></li>
+  <li><code class="language-plaintext highlighter-rouge">JWTKEYSECRET</code> - Used to encrypt communications between the client web apps and the server.</li>
+  <li><code class="language-plaintext highlighter-rouge">MAXDBSIZE</code> - The maximum size of the database in bytes. 4500000000 is a good size to start.</li>
+  <li><code class="language-plaintext highlighter-rouge">TWOFA</code> - The two factor authentication flag.</li>
+</ul>
 
-        </div><!-- /.medium-7.columns -->
-    </div><!-- /.row -->
+<h2 id="starting-the-blinky-lite-stack">Starting the blinky-lite stack</h2>
+<p>At the bottom of the stack configuration web page, press the blue deploy the stack button. It will take some time to deploy the stack because all the necessary docker containers need to be imported.  Once the stack has been deployed, you will see blinky-lite show up on the stacks list.</p>
 
+<p>Blinky-Lite will be served on port 80 of the Ubuntu server. Because blinky-lite implements an nginx reverse proxy server, you can also reach the Portainer web application by entering portainer after the server ip address.</p>
 
+<h2 id="viewing-the-blinky-lite-database">Viewing the Blinky-Lite database</h2>
+<p>You can also edit the blinky-lite database by entering mongo-express after the server ip address. The user name for mongo-express is admin and the password is the same as the blinky-lite password you set when configuring the stack. You should only touch the blinky-lite database.</p>
 
+<p>The blinky-lite database contains a number of mongo-db collections. For example, you can change user credentials and permissions in users collections.  You can set the color scheme of all the applications by adjusting the general app document. You can also adjust the look of the initial landing page.</p>
 
-
-<div class="row">
-    <div id="videoModal1" class="reveal-modal large" data-reveal="">
+<div id="videoModal5" class="reveal-modal large" data-reveal="">
   <div class="flex-video widescreen vimeo" style="display: block;">
-    <iframe width="1280" height="720" src="https://player.vimeo.com/video/913219981?dnt=1" frameborder="0" allowfullscreen=""></iframe>
+    <iframe width="1280" height="720" src="https://player.vimeo.com/video/906812514?dnt=1" frameborder="0" allowfullscreen=""></iframe>
   </div>
   <a class="close-reveal-modal">&#215;</a>
 </div>
-<div id="videoModal2" class="reveal-modal large" data-reveal="">
-  <div class="flex-video widescreen vimeo" style="display: block;">
-    <iframe width="1280" height="720" src="https://player.vimeo.com/video/913220335?dnt=1" frameborder="0" allowfullscreen=""></iframe>
-  </div>
-  <a class="close-reveal-modal">&#215;</a>
-</div>
 
-<script>
-  function toppy(videoModal)
-  {
-    let topValue1 = parseInt(window.getComputedStyle(document.getElementById("videoModal" + videoModal.toString())).getPropertyValue('top').replace('px',''), 10);
-    if (topValue1 < 10) window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
-</script>
+			</div>
 
-<p><a href="https://docs.google.com/presentation/d/e/2PACX-1vRG3nJ5e0Zz-bhrKx68-7E6T7x23cLjuwj2gvveQOSaV3GjceNPJEmz7dPGEa4WUYVPRx3xo789TKIg/pub?start=false&amp;loop=false">Overview presentation</a></p>
+			
 
+			
+		</article>
+	</div><!-- /.medium-8.columns -->
+
+
+	
+
+
+	
 </div><!-- /.row -->
 
 
@@ -549,8 +516,8 @@
 
 
 <script>
-    $("#masthead").backstretch("/images/mainSplash.png", {fade: 700});
-    $("#masthead-with-text").backstretch("/images/mainSplash.png", {fade: 700});
+    $("#masthead").backstretch("/images/architecture/architecture.jpg", {fade: 700});
+    $("#masthead-with-text").backstretch("/images/architecture/architecture.jpg", {fade: 700});
 </script>
 
 

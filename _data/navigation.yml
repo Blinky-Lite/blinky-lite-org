@@ -3,9 +3,14 @@
   side: left
 
 - title: Documentation
-  url: "/docs/"
   side: left
-
+  dropdown:
+  - title: "Features"
+    url: "/features/"
+  - title: "Architecture"
+    url: "/architecture/"
+  - title: "Application Server Installation"
+    url: "/appServerInstall/"
 - title: Posts
   url: "/blog/"
   side: left
