@@ -359,41 +359,48 @@
 
 <p>when complete.</p>
 
-<h2 id="download-blinky-compose">Download blinky-compose</h2>
-<p>Now open a browser that is on the same network as the Ubuntu server.</p>
-<ul>
-  <li>Navigate to the <a href="https://github.com/Blinky-Lite/blinky-compose">blinky-compose repository</a>.</li>
-  <li>Click the green Code button and select the Download zip option at the bottom of the dialog window.</li>
-  <li>After the zip file has been downloaded, go to your download folder and extract the zip file.</li>
-</ul>
-
 <h2 id="configure-the-blinky-lite-stack">Configure the blinky-Lite stack</h2>
-<p>Return to your web browser and in the address bar enter the IP address of your Ubuntu server followed by a :9000 to navigate to the Portainer web app.</p>
+<p>Open your web browser and in the address bar enter the IP address of your Ubuntu server followed by a :9000 to navigate to the Portainer web app.</p>
 <ul>
   <li>The username for Portainer is admin and the password is what you entered during the installation script.</li>
   <li>Click on the “Get Started” button and then click on the Docker icon to reach the Docker dashboard.</li>
   <li>From the Docker dashboard click on the “stacks” button.</li>
   <li>Press the blue “Add Stack” button and enter the name for your Blinky-Lite stack.</li>
   <li>It is recommended to use blinky-lite as the stack name.</li>
-  <li>Click on the upload option and then under the upload section, press the Select file button.</li>
-  <li>Navigate to your download directory and open the blinky-compose-main directory that you extracted.</li>
-  <li>Select the blinky-lite.yaml file.</li>
-  <li>Next, select the “Load variables from env file” button and navigate to the download directory.</li>
-  <li>Navigate to the env directory and select the blinky-lite.env file.
-    <h3 id="configure-the-blinky-lite-env-variables">Configure the Blinky-Lite env variables</h3>
-    <p>Fill in the environmental variables into the table as shown.</p>
-  </li>
-  <li><code class="language-plaintext highlighter-rouge">DOCKER_TAG</code> - Enter <code class="language-plaintext highlighter-rouge">amd64</code> for now. More choices in the future</li>
-  <li><code class="language-plaintext highlighter-rouge">BLINKYLITE_PASSWORD</code> - same password as you used for the portainer app</li>
+  <li>Click on the Web Editor option and then and then copy this <a href="https://raw.githubusercontent.com/Blinky-Lite/blinky-compose/refs/heads/main/blinky-lite.yaml">template stack file</a> into the web editor.</li>
+</ul>
+
+<h3 id="configure-the-blinky-lite-env-variables">Configure the Blinky-Lite env variables</h3>
+<ul>
+  <li>Underneath the Web Editor in the Environment variables section, click on the <em>Advanced mode</em> link.</li>
+  <li>Open this <a href="https://raw.githubusercontent.com/Blinky-Lite/blinky-compose/refs/heads/main/env/blinky-lite.env">template env file</a> and copy it into the env window in Portainer</li>
+  <li>In the Portainer window, view the env variables in <em>Simple mode</em> by clicking on the Simple mode link,</li>
+</ul>
+
+<p>Fill in the environment variables into the table as shown.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">DOCKER_TAG</code> - Enter <em>amd64</em>  or <em>arm64v8</em> depending on your computer architecture.</li>
+  <li><code class="language-plaintext highlighter-rouge">BLINKYLITE_PASSWORD</code> - this password will be used for the database and mqtt broker. For simplicity, you can use the sme password as used for the Portainer container.</li>
   <li><code class="language-plaintext highlighter-rouge">BOX</code> - name of your blinky-lite box eg. my-blinky-box-01</li>
-  <li><code class="language-plaintext highlighter-rouge">REMOTE_MQTTSERVER</code> - Enter <code class="language-plaintext highlighter-rouge">none</code>. Since this is an introductory tutorial we will not use an external MQTT broker as a bridge</li>
-  <li><code class="language-plaintext highlighter-rouge">REMOTE_MQTTUSER</code> - Enter <code class="language-plaintext highlighter-rouge">none</code></li>
-  <li><code class="language-plaintext highlighter-rouge">REMOTE_MQTTPASSWORD</code> - Enter <code class="language-plaintext highlighter-rouge">none</code></li>
+  <li><code class="language-plaintext highlighter-rouge">REMOTE_MQTTSERVER</code> - Enter <em>NONE</em>. Since this is an introductory tutorial we will not use an external MQTT broker as a bridge</li>
+  <li><code class="language-plaintext highlighter-rouge">REMOTE_MQTTUSER</code> - Enter <em>NONE</em></li>
+  <li><code class="language-plaintext highlighter-rouge">REMOTE_MQTTPASSWORD</code> - Enter <em>NONE</em></li>
   <li><code class="language-plaintext highlighter-rouge">HUB</code> - Enter <code class="language-plaintext highlighter-rouge">blinky-hub</code></li>
-  <li><code class="language-plaintext highlighter-rouge">EXTRA_HUB_TOPIC1</code> - Enter <code class="language-plaintext highlighter-rouge">none</code></li>
-  <li><code class="language-plaintext highlighter-rouge">JWTKEYSECRET</code> - Used to encrypt communications between the client web apps and the server.</li>
-  <li><code class="language-plaintext highlighter-rouge">MAXDBSIZE</code> - The maximum size of the database in bytes. 4500000000 is a good size to start.</li>
-  <li><code class="language-plaintext highlighter-rouge">TWOFA</code> - The two factor authentication flag.</li>
+  <li><code class="language-plaintext highlighter-rouge">EXTRA_HUB_TOPIC1</code> - Enter <em>NONE</em></li>
+  <li><code class="language-plaintext highlighter-rouge">JWTKEYSECRET</code> - Used to encrypt communications between the client web apps and the server.
+    <ul>
+      <li>You can use <a href="https://jwtsecrets.com/">online tools</a> to generate a secret.</li>
+      <li>64 bits or 16 characters should be sufficient.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">MAXDBSIZE</code> - The maximum size of the database in bytes. <em>4500000000</em> is a good size to start.</li>
+  <li><code class="language-plaintext highlighter-rouge">TWOFA</code> - The two factor authentication flag. For simplicity, set to <em>0</em> for password authentication.</li>
+  <li><code class="language-plaintext highlighter-rouge">CUSTOM_LAUNCH</code> - For simplicity, we will use the default landing page so set this to <em>0</em>.</li>
+  <li><code class="language-plaintext highlighter-rouge">GIT_REPO_URL</code> - Only needed for a custom launch so set to <em>NONE</em></li>
+  <li><code class="language-plaintext highlighter-rouge">GIT_BRANCH</code>- Only needed for a custom launch so set to <em>NONE</em></li>
+  <li><code class="language-plaintext highlighter-rouge">GIT_STATIC_CONTENT</code>- Only needed for a custom launch so set to <em>NONE</em></li>
+  <li><code class="language-plaintext highlighter-rouge">ENABLE_NODERED_EDITOR</code> - For advanced use only so set this to <em>0</em></li>
 </ul>
 
 <h2 id="starting-the-blinky-lite-stack">Starting the blinky-lite stack</h2>

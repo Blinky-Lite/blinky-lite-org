@@ -286,12 +286,14 @@ $align-class-breakpoints:
     /* Helpful Typography Defaults */
     em,
     i {
+      color: $anchor-font-color;
       font-style: italic;
       line-height: inherit;
     }
 
     strong,
     b {
+      color: $anchor-font-color;
       font-weight: $font-weight-bold;
       line-height: inherit;
     }

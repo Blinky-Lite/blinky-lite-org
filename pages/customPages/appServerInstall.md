@@ -36,38 +36,42 @@ The script will take a while to execute and give a message
 
 when complete.
 
-## Download blinky-compose 
-Now open a browser that is on the same network as the Ubuntu server. 
-- Navigate to the [blinky-compose repository](https://github.com/Blinky-Lite/blinky-compose ). 
-- Click the green Code button and select the Download zip option at the bottom of the dialog window. 
-- After the zip file has been downloaded, go to your download folder and extract the zip file. 
-
 ## Configure the blinky-Lite stack
-Return to your web browser and in the address bar enter the IP address of your Ubuntu server followed by a :9000 to navigate to the Portainer web app.
+Open your web browser and in the address bar enter the IP address of your Ubuntu server followed by a :9000 to navigate to the Portainer web app.
 - The username for Portainer is admin and the password is what you entered during the installation script. 
 - Click on the "Get Started" button and then click on the Docker icon to reach the Docker dashboard. 
 - From the Docker dashboard click on the "stacks" button. 
 - Press the blue "Add Stack" button and enter the name for your Blinky-Lite stack. 
 - It is recommended to use blinky-lite as the stack name. 
-- Click on the upload option and then under the upload section, press the Select file button. 
-- Navigate to your download directory and open the blinky-compose-main directory that you extracted. 
-- Select the blinky-lite.yaml file. 
-- Next, select the "Load variables from env file" button and navigate to the download directory. 
-- Navigate to the env directory and select the blinky-lite.env file. 
-### Configure the Blinky-Lite env variables
-Fill in the environmental variables into the table as shown. 
+- Click on the Web Editor option and then and then copy this [template stack file](https://raw.githubusercontent.com/Blinky-Lite/blinky-compose/refs/heads/main/blinky-lite.yaml) into the web editor. 
 
-* `DOCKER_TAG` - Enter `amd64` for now. More choices in the future
-* `BLINKYLITE_PASSWORD` - same password as you used for the portainer app
+
+### Configure the Blinky-Lite env variables
+- Underneath the Web Editor in the Environment variables section, click on the *Advanced mode* link.
+- Open this [template env file](https://raw.githubusercontent.com/Blinky-Lite/blinky-compose/refs/heads/main/env/blinky-lite.env) and copy it into the env window in Portainer
+- In the Portainer window, view the env variables in *Simple mode* by clicking on the Simple mode link, 
+
+Fill in the environment variables into the table as shown. 
+
+* `DOCKER_TAG` - Enter *amd64*  or *arm64v8* depending on your computer architecture.
+* `BLINKYLITE_PASSWORD` - this password will be used for the database and mqtt broker. For simplicity, you can use the sme password as used for the Portainer container.
 * `BOX` - name of your blinky-lite box eg. my-blinky-box-01
-* `REMOTE_MQTTSERVER` - Enter `none`. Since this is an introductory tutorial we will not use an external MQTT broker as a bridge
-* `REMOTE_MQTTUSER` - Enter `none`
-* `REMOTE_MQTTPASSWORD` - Enter `none`
+* `REMOTE_MQTTSERVER` - Enter *NONE*. Since this is an introductory tutorial we will not use an external MQTT broker as a bridge
+* `REMOTE_MQTTUSER` - Enter *NONE*
+* `REMOTE_MQTTPASSWORD` - Enter *NONE*
 * `HUB` - Enter `blinky-hub`
-* `EXTRA_HUB_TOPIC1` - Enter `none`
-* `JWTKEYSECRET` - Used to encrypt communications between the client web apps and the server.
-* `MAXDBSIZE` - The maximum size of the database in bytes. 4500000000 is a good size to start.
-* `TWOFA` - The two factor authentication flag.  
+* `EXTRA_HUB_TOPIC1` - Enter *NONE*
+* `JWTKEYSECRET` - Used to encrypt communications between the client web apps and the server. 
+  - You can use [online tools](https://jwtsecrets.com/) to generate a secret.
+  - 64 bits or 16 characters should be sufficient.
+* `MAXDBSIZE` - The maximum size of the database in bytes. *4500000000* is a good size to start.
+* `TWOFA` - The two factor authentication flag. For simplicity, set to *0* for password authentication.
+* `CUSTOM_LAUNCH` - For simplicity, we will use the default landing page so set this to *0*.
+* `GIT_REPO_URL` - Only needed for a custom launch so set to *NONE*
+* `GIT_BRANCH`- Only needed for a custom launch so set to *NONE* 
+* `GIT_STATIC_CONTENT`- Only needed for a custom launch so set to *NONE* 
+* `ENABLE_NODERED_EDITOR` - For advanced use only so set this to *0* 
+
 
 ## Starting the blinky-lite stack
 At the bottom of the stack configuration web page, press the blue deploy the stack button. It will take some time to deploy the stack because all the necessary docker containers need to be imported.  Once the stack has been deployed, you will see blinky-lite show up on the stacks list.  
