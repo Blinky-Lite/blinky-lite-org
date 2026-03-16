@@ -28,7 +28,7 @@
   side: left
   dropdown:
   - title: "BL Monitor & Control"
-    url: "https://bl-mc.com/"
+    url: "https://www.bl-mc.com/"
 
 - title: "Search"
   url: "/search/"
